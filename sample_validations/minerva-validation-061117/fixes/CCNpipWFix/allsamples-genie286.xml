@@ -1,0 +1,15 @@
+<nuisance>
+  <config GENIE_DIR="/data/stowell/NIWG/NUISANCEMC/minerva_tuning/sample_validations/mc_runs/genie-R-2_6_3-Default-Default/"/>
+
+  <sample name="MINERvA_CCinc_XSec_2DEavq3_nu"    input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+
+  <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtC_nu"  input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.C.2500000.5.prepared.root" />
+  <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu" input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.C.2500000.5.prepared.root;@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+
+  <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu"  input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.Fe.2500000.6.prepared.root" />
+  <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu" input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.Fe.2500000.6.prepared.root;@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+
+  <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu"  input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.Pb.2500000.7.prepared.root" />
+  <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu" input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.Pb.2500000.7.prepared.root;@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+
+</nuisance>

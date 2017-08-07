@@ -1,0 +1,468 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2016.7.14)  7 AUG 2017 18:42
+entering extended mode
+ %&-line parsing enabled.
+**allsamples-genie263-master-beforefix.tex
+(./allsamples-genie263-master-beforefix.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/share/texmf/tex/latex/base/article.cls
+Document Class: article 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/share/texmf/tex/latex/base/size10.clo
+File: size10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/share/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/share/texmf/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count87
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf/tex/latex/geometry/geometry.sty
+Package: geometry 2002/07/08 v3.2 Page Geometry
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
+\Gm@bindingoffset=\dimen105
+\Gm@wd@mp=\dimen106
+\Gm@odd@mp=\dimen107
+\Gm@even@mp=\dimen108
+\Gm@dimlist=\toks15
+)
+(/usr/share/texmf/tex/latex/ltxmisc/morefloats.sty
+\bx@S=\insert233
+\bx@T=\insert232
+\bx@U=\insert231
+\bx@V=\insert230
+\bx@W=\insert229
+\bx@X=\insert228
+\bx@Y=\insert227
+\bx@Z=\insert226
+\bx@AA=\insert225
+\bx@BB=\insert224
+\bx@CC=\insert223
+\bx@DD=\insert222
+\bx@EE=\insert221
+\bx@FF=\insert220
+\bx@GG=\insert219
+\bx@HH=\insert218
+\bx@II=\insert217
+\bx@JJ=\insert216
+)
+No file allsamples-genie263-master-beforefix.aux.
+\openout1 = `allsamples-genie263-master-beforefix.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+-------------------- Geometry parameters
+paper: class default
+landscape: --
+twocolumn: --
+twoside: --
+asymmetric: --
+h-parts: 28.90755pt, 556.4799pt, 28.90755pt
+v-parts: 28.90755pt, 737.15489pt, 28.90755pt
+hmarginratio: --
+vmarginratio: --
+lines: --
+heightrounded: --
+bindingoffset: 0.0pt
+truedimen: --
+includehead: --
+includefoot: --
+includemp: --
+driver: pdftex
+-------------------- Page layout dimensions and switches
+\paperwidth  614.295pt
+\paperheight 794.96999pt
+\textwidth  556.4799pt
+\textheight 737.15489pt
+\oddsidemargin  -43.36244pt
+\evensidemargin -43.36244pt
+\topmargin  -80.36244pt
+\headheight 12.0pt
+\headsep    25.0pt
+\footskip   30.0pt
+\marginparwidth 65.0pt
+\marginparsep   11.0pt
+\columnsep  10.0pt
+\skip\footins  9.0pt plus 4.0pt minus 2.0pt
+\hoffset 0.0pt
+\voffset 0.0pt
+\mag 1000
+
+(1in=72.27pt, 1cm=28.45pt)
+-----------------------
+<figures/minerva_numu_ccqe_comp.png, id=1, 794.97pt x 546.04pt>
+File: figures/minerva_numu_ccqe_comp.png Graphic file (type png)
+
+<use figures/minerva_numu_ccqe_comp.png>
+<figures/minerva_numu_ccqe_info.png, id=2, 794.97pt x 546.04pt>
+File: figures/minerva_numu_ccqe_info.png Graphic file (type png)
+
+<use figures/minerva_numu_ccqe_info.png>
+<figures/minerva_nubar_ccqe_comp.png, id=3, 794.97pt x 546.04pt>
+File: figures/minerva_nubar_ccqe_comp.png Graphic file (type png)
+
+<use figures/minerva_nubar_ccqe_comp.png>
+<figures/minerva_nubar_ccqe_info.png, id=4, 794.97pt x 546.04pt>
+File: figures/minerva_nubar_ccqe_info.png Graphic file (type png)
+
+<use figures/minerva_nubar_ccqe_info.png>
+<figures/minerva_cc0pi1p_2015_comp.png, id=5, 794.97pt x 546.04pt>
+File: figures/minerva_cc0pi1p_2015_comp.png Graphic file (type png)
+
+<use figures/minerva_cc0pi1p_2015_comp.png>
+<figures/minerva_cc0pi1p_2015_info.png, id=6, 794.97pt x 546.04pt>
+File: figures/minerva_cc0pi1p_2015_info.png Graphic file (type png)
+
+<use figures/minerva_cc0pi1p_2015_info.png>
+<figures/minerva_nueee_comp.png, id=7, 794.97pt x 546.04pt>
+File: figures/minerva_nueee_comp.png Graphic file (type png)
+
+<use figures/minerva_nueee_comp.png>
+<figures/minerva_nueee_info.png, id=8, 794.97pt x 546.04pt>
+File: figures/minerva_nueee_info.png Graphic file (type png)
+
+<use figures/minerva_nueee_info.png>
+<figures/minerva_nueq2_comp.png, id=9, 794.97pt x 546.04pt>
+File: figures/minerva_nueq2_comp.png Graphic file (type png)
+
+<use figures/minerva_nueq2_comp.png>
+<figures/minerva_nueq2_info.png, id=10, 794.97pt x 546.04pt>
+File: figures/minerva_nueq2_info.png Graphic file (type png)
+
+<use figures/minerva_nueq2_info.png>
+<figures/minerva_numu_cc1pipangle_eberly_comp.png, id=11, 794.97pt x 546.04pt>
+File: figures/minerva_numu_cc1pipangle_eberly_comp.png Graphic file (type png)
+
+<use figures/minerva_numu_cc1pipangle_eberly_comp.png>
+<figures/minerva_numu_cc1pipangle_eberly_info.png, id=12, 794.97pt x 546.04pt>
+File: figures/minerva_numu_cc1pipangle_eberly_info.png Graphic file (type png)
+
+<use figures/minerva_numu_cc1pipangle_eberly_info.png>
+File: figures/minerva_numu_cc1pipangle_eberly_comp.png Graphic file (type png)
+
+<use figures/minerva_numu_cc1pipangle_eberly_comp.png>
+File: figures/minerva_numu_cc1pipangle_eberly_info.png Graphic file (type png)
+
+<use figures/minerva_numu_cc1pipangle_eberly_info.png>
+<figures/minerva_cc1piptpi_eberly_comp.png, id=13, 794.97pt x 546.04pt>
+File: figures/minerva_cc1piptpi_eberly_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1piptpi_eberly_comp.png>
+<figures/minerva_cc1piptpi_eberly_info.png, id=14, 794.97pt x 546.04pt>
+File: figures/minerva_cc1piptpi_eberly_info.png Graphic file (type png)
+
+<use figures/minerva_cc1piptpi_eberly_info.png>
+<figures/minerva_cc1pip_angle_2016_comp.png, id=15, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pip_angle_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pip_angle_2016_comp.png>
+<figures/minerva_cc1pip_angle_2016_info.png, id=16, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pip_angle_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pip_angle_2016_info.png>
+<figures/minerva_cc1pipangle_2016_comp.png, id=17, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipangle_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pipangle_2016_comp.png>
+<figures/minerva_cc1pipangle_2016_info.png, id=18, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipangle_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pipangle_2016_info.png>
+<figures/minerva_cc1pipenu_2016_comp.png, id=19, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipenu_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pipenu_2016_comp.png>
+<figures/minerva_cc1pipenu_2016_info.png, id=20, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipenu_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pipenu_2016_info.png>
+<figures/minerva_cc1pipke_2016_comp.png, id=21, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipke_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pipke_2016_comp.png>
+<figures/minerva_cc1pipke_2016_info.png, id=22, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipke_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pipke_2016_info.png>
+<figures/minerva_cc1pipmuonmom_2016_comp.png, id=23, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipmuonmom_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pipmuonmom_2016_comp.png>
+<figures/minerva_cc1pipmuonmom_2016_info.png, id=24, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipmuonmom_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pipmuonmom_2016_info.png>
+<figures/minerva_cc1pipq2_2016_comp.png, id=25, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipq2_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pipq2_2016_comp.png>
+<figures/minerva_cc1pipq2_2016_info.png, id=26, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pipq2_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pipq2_2016_info.png>
+<figures/minerva_ccnpipangle_eberly_comp.png, id=27, 794.97pt x 546.04pt>
+File: figures/minerva_ccnpipangle_eberly_comp.png Graphic file (type png)
+
+<use figures/minerva_ccnpipangle_eberly_comp.png>
+<figures/minerva_ccnpipangle_eberly_info.png, id=28, 794.97pt x 546.04pt>
+File: figures/minerva_ccnpipangle_eberly_info.png Graphic file (type png)
+
+<use figures/minerva_ccnpipangle_eberly_info.png>
+<figures/minerva_ccnpiptpi_eberly_comp.png, id=29, 794.97pt x 546.04pt>
+File: figures/minerva_ccnpiptpi_eberly_comp.png Graphic file (type png)
+
+<use figures/minerva_ccnpiptpi_eberly_comp.png>
+<figures/minerva_ccnpiptpi_eberly_info.png, id=30, 794.97pt x 546.04pt>
+File: figures/minerva_ccnpiptpi_eberly_info.png Graphic file (type png)
+
+<use figures/minerva_ccnpiptpi_eberly_info.png>
+<figures/minerva_numub_ccpi0anglepi_2015_comp.png, id=31, 794.97pt x 546.04pt>
+File: figures/minerva_numub_ccpi0anglepi_2015_comp.png Graphic file (type png)
+
+<use figures/minerva_numub_ccpi0anglepi_2015_comp.png>
+<figures/minerva_numub_ccpi0anglepi_2015_info.png, id=32, 794.97pt x 546.04pt>
+File: figures/minerva_numub_ccpi0anglepi_2015_info.png Graphic file (type png)
+
+<use figures/minerva_numub_ccpi0anglepi_2015_info.png>
+<figures/minerva_numub_ccpi0ppi_2015_comp.png, id=33, 794.97pt x 546.04pt>
+File: figures/minerva_numub_ccpi0ppi_2015_comp.png Graphic file (type png)
+
+<use figures/minerva_numub_ccpi0ppi_2015_comp.png>
+<figures/minerva_numub_ccpi0ppi_2015_info.png, id=34, 794.97pt x 546.04pt>
+File: figures/minerva_numub_ccpi0ppi_2015_info.png Graphic file (type png)
+
+<use figures/minerva_numub_ccpi0ppi_2015_info.png>
+<figures/minerva_cc1pi0angle_2016_comp.png, id=35, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0angle_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0angle_2016_comp.png>
+<figures/minerva_cc1pi0angle_2016_info.png, id=36, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0angle_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0angle_2016_info.png>
+<figures/minerva_cc1pi0enu_2016_comp.png, id=37, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0enu_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0enu_2016_comp.png>
+<figures/minerva_cc1pi0enu_2016_info.png, id=38, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0enu_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0enu_2016_info.png>
+<figures/minerva_cc1pi0ke_2016_comp.png, id=39, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0ke_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0ke_2016_comp.png>
+<figures/minerva_cc1pi0ke_2016_info.png, id=40, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0ke_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0ke_2016_info.png>
+<figures/minerva_cc1pi0muonmom_2016_comp.png, id=41, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0muonmom_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0muonmom_2016_comp.png>
+<figures/minerva_cc1pi0muonmom_2016_info.png, id=42, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0muonmom_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0muonmom_2016_info.png>
+<figures/minerva_cc1pi0pionangle_2016_comp.png, id=43, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0pionangle_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0pionangle_2016_comp.png>
+<figures/minerva_cc1pi0pionangle_2016_info.png, id=44, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0pionangle_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0pionangle_2016_info.png>
+<figures/minerva_cc1pi0q2_2016_comp.png, id=45, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0q2_2016_comp.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0q2_2016_comp.png>
+<figures/minerva_cc1pi0q2_2016_info.png, id=46, 794.97pt x 546.04pt>
+File: figures/minerva_cc1pi0q2_2016_info.png Graphic file (type png)
+
+<use figures/minerva_cc1pi0q2_2016_info.png>
+<figures/minerva_cohenu_numu_comp.png, id=47, 794.97pt x 546.04pt>
+File: figures/minerva_cohenu_numu_comp.png Graphic file (type png)
+
+<use figures/minerva_cohenu_numu_comp.png>
+<figures/minerva_cohenu_numu_info.png, id=48, 794.97pt x 546.04pt>
+File: figures/minerva_cohenu_numu_info.png Graphic file (type png)
+
+<use figures/minerva_cohenu_numu_info.png>
+<figures/minerva_cohthetapinumu_comp.png, id=49, 794.97pt x 546.04pt>
+File: figures/minerva_cohthetapinumu_comp.png Graphic file (type png)
+
+<use figures/minerva_cohthetapinumu_comp.png>
+<figures/minerva_cohthetapinumu_info.png, id=50, 794.97pt x 546.04pt>
+File: figures/minerva_cohthetapinumu_info.png Graphic file (type png)
+
+<use figures/minerva_cohthetapinumu_info.png>
+<figures/minerva_cohtpinumu_comp.png, id=51, 794.97pt x 546.04pt>
+File: figures/minerva_cohtpinumu_comp.png Graphic file (type png)
+
+<use figures/minerva_cohtpinumu_comp.png>
+<figures/minerva_cohtpinumu_info.png, id=52, 794.97pt x 546.04pt>
+File: figures/minerva_cohtpinumu_info.png Graphic file (type png)
+
+<use figures/minerva_cohtpinumu_info.png>
+<figures/minerva_cohenu_numubar_comp.png, id=53, 794.97pt x 546.04pt>
+File: figures/minerva_cohenu_numubar_comp.png Graphic file (type png)
+
+<use figures/minerva_cohenu_numubar_comp.png>
+<figures/minerva_cohenu_numubar_info.png, id=54, 794.97pt x 546.04pt>
+File: figures/minerva_cohenu_numubar_info.png Graphic file (type png)
+
+<use figures/minerva_cohenu_numubar_info.png>
+<figures/minerva_cohthetapinumubar_comp.png, id=55, 794.97pt x 546.04pt>
+File: figures/minerva_cohthetapinumubar_comp.png Graphic file (type png)
+
+<use figures/minerva_cohthetapinumubar_comp.png>
+<figures/minerva_cohthetapinumubar_info.png, id=56, 794.97pt x 546.04pt>
+File: figures/minerva_cohthetapinumubar_info.png Graphic file (type png)
+
+<use figures/minerva_cohthetapinumubar_info.png>
+<figures/minerva_cohtpinumubar_comp.png, id=57, 794.97pt x 546.04pt>
+File: figures/minerva_cohtpinumubar_comp.png Graphic file (type png)
+
+<use figures/minerva_cohtpinumubar_comp.png>
+<figures/minerva_cohtpinumubar_info.png, id=58, 794.97pt x 546.04pt>
+File: figures/minerva_cohtpinumubar_info.png Graphic file (type png)
+
+<use figures/minerva_cohtpinumubar_info.png>
+<figures/minerva_numu_ccincratio_enuC_comp.png, id=59, 794.97pt x 546.04pt>
+File: figures/minerva_numu_ccincratio_enuC_comp.png Graphic file (type png)
+
+<use figures/minerva_numu_ccincratio_enuC_comp.png> [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./figures/minerva_numu_ccq
+e_comp.png (PNG copy)> <./figures/minerva_numu_ccqe_info.png (PNG copy)> <./fig
+ures/minerva_nubar_ccqe_comp.png (PNG copy)> <./figures/minerva_nubar_ccqe_info
+.png (PNG copy)> <./figures/minerva_cc0pi1p_2015_comp.png (PNG copy)> <./figure
+s/minerva_cc0pi1p_2015_info.png (PNG copy)>] [2 <./figures/minerva_nueee_comp.p
+ng (PNG copy)> <./figures/minerva_nueee_info.png (PNG copy)> <./figures/minerva
+_nueq2_comp.png (PNG copy)> <./figures/minerva_nueq2_info.png (PNG copy)> <./fi
+gures/minerva_numu_cc1pipangle_eberly_comp.png (PNG copy)> <./figures/minerva_n
+umu_cc1pipangle_eberly_info.png (PNG copy)>] [3 <./figures/minerva_cc1piptpi_eb
+erly_comp.png (PNG copy)> <./figures/minerva_cc1piptpi_eberly_info.png (PNG cop
+y)> <./figures/minerva_cc1pip_angle_2016_comp.png (PNG copy)> <./figures/minerv
+a_cc1pip_angle_2016_info.png (PNG copy)>] [4 <./figures/minerva_cc1pipangle_201
+6_comp.png (PNG copy)> <./figures/minerva_cc1pipangle_2016_info.png (PNG copy)>
+ <./figures/minerva_cc1pipenu_2016_comp.png (PNG copy)> <./figures/minerva_cc1p
+ipenu_2016_info.png (PNG copy)> <./figures/minerva_cc1pipke_2016_comp.png (PNG 
+copy)> <./figures/minerva_cc1pipke_2016_info.png (PNG copy)>] [5 <./figures/min
+erva_cc1pipmuonmom_2016_comp.png (PNG copy)> <./figures/minerva_cc1pipmuonmom_2
+016_info.png (PNG copy)> <./figures/minerva_cc1pipq2_2016_comp.png (PNG copy)> 
+<./figures/minerva_cc1pipq2_2016_info.png (PNG copy)> <./figures/minerva_ccnpip
+angle_eberly_comp.png (PNG copy)> <./figures/minerva_ccnpipangle_eberly_info.pn
+g (PNG copy)>] [6 <./figures/minerva_ccnpiptpi_eberly_comp.png (PNG copy)> <./f
+igures/minerva_ccnpiptpi_eberly_info.png (PNG copy)> <./figures/minerva_numub_c
+cpi0anglepi_2015_comp.png (PNG copy)> <./figures/minerva_numub_ccpi0anglepi_201
+5_info.png (PNG copy)> <./figures/minerva_numub_ccpi0ppi_2015_comp.png (PNG cop
+y)> <./figures/minerva_numub_ccpi0ppi_2015_info.png (PNG copy)>] [7 <./figures/
+minerva_cc1pi0angle_2016_comp.png (PNG copy)> <./figures/minerva_cc1pi0angle_20
+16_info.png (PNG copy)> <./figures/minerva_cc1pi0enu_2016_comp.png (PNG copy)> 
+<./figures/minerva_cc1pi0enu_2016_info.png (PNG copy)> <./figures/minerva_cc1pi
+0ke_2016_comp.png (PNG copy)> <./figures/minerva_cc1pi0ke_2016_info.png (PNG co
+py)>] [8 <./figures/minerva_cc1pi0muonmom_2016_comp.png (PNG copy)> <./figures/
+minerva_cc1pi0muonmom_2016_info.png (PNG copy)> <./figures/minerva_cc1pi0pionan
+gle_2016_comp.png (PNG copy)> <./figures/minerva_cc1pi0pionangle_2016_info.png 
+(PNG copy)> <./figures/minerva_cc1pi0q2_2016_comp.png (PNG copy)> <./figures/mi
+nerva_cc1pi0q2_2016_info.png (PNG copy)>] [9 <./figures/minerva_cohenu_numu_com
+p.png (PNG copy)> <./figures/minerva_cohenu_numu_info.png (PNG copy)> <./figure
+s/minerva_cohthetapinumu_comp.png (PNG copy)> <./figures/minerva_cohthetapinumu
+_info.png (PNG copy)> <./figures/minerva_cohtpinumu_comp.png (PNG copy)> <./fig
+ures/minerva_cohtpinumu_info.png (PNG copy)>]
+<figures/minerva_numu_ccincratio_enuFe_comp.png, id=90, 794.97pt x 546.04pt>
+[10 <./figures/minerva_cohenu_numubar_comp.png (PNG copy)> <./figures/minerva_c
+ohenu_numubar_info.png (PNG copy)> <./figures/minerva_cohthetapinumubar_comp.pn
+g (PNG copy)> <./figures/minerva_cohthetapinumubar_info.png (PNG copy)> <./figu
+res/minerva_cohtpinumubar_comp.png (PNG copy)> <./figures/minerva_cohtpinumubar
+_info.png (PNG copy)>]
+File: figures/minerva_numu_ccincratio_enuFe_comp.png Graphic file (type png)
+ <use figures/minerva_numu_ccincratio_enuFe_comp.png>
+<figures/minerva_numu_ccincratio_enuPb_comp.png, id=94, 794.97pt x 546.04pt>
+File: figures/minerva_numu_ccincratio_enuPb_comp.png Graphic file (type png)
+
+<use figures/minerva_numu_ccincratio_enuPb_comp.png>
+<figures/minerva_numu_ccincratio_xC_comp.png, id=95, 794.97pt x 546.04pt>
+File: figures/minerva_numu_ccincratio_xC_comp.png Graphic file (type png)
+
+<use figures/minerva_numu_ccincratio_xC_comp.png>
+<figures/minerva_numu_ccincratio_xFe_comp.png, id=96, 794.97pt x 546.04pt>
+[11 <./figures/minerva_numu_ccincratio_enuC_comp.png (PNG copy)> <./figures/min
+erva_numu_ccincratio_enuFe_comp.png (PNG copy)> <./figures/minerva_numu_ccincra
+tio_enuPb_comp.png (PNG copy)>]
+File: figures/minerva_numu_ccincratio_xFe_comp.png Graphic file (type png)
+
+<use figures/minerva_numu_ccincratio_xFe_comp.png>
+<figures/minerva_numu_ccincratio_xPb_comp.png, id=100, 794.97pt x 546.04pt>
+File: figures/minerva_numu_ccincratio_xPb_comp.png Graphic file (type png)
+
+<use figures/minerva_numu_ccincratio_xPb_comp.png> [12 <./figures/minerva_numu_
+ccincratio_xC_comp.png (PNG copy)> <./figures/minerva_numu_ccincratio_xFe_comp.
+png (PNG copy)> <./figures/minerva_numu_ccincratio_xPb_comp.png (PNG copy)>]
+(./allsamples-genie263-master-beforefix.aux) ) 
+Here is how much of TeX's memory you used:
+ 1220 strings out of 256214
+ 25122 string characters out of 1917000
+ 67676 words of memory out of 1500000
+ 4497 multiletter control sequences out of 10000+200000
+ 3640 words of font info for 14 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 25i,5n,32p,248b,182s stack positions out of 5000i,500n,6000p,200000b,15000s
+</usr/share/texmf/fonts/type1/blu
+esky/cm/cmr10.pfb>
+Output written on allsamples-genie263-master-beforefix.pdf (12 pages, 1546827 b
+ytes).
+PDF statistics:
+ 109 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 131072)
+ 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+

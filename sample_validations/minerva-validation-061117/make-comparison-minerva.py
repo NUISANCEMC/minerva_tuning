@@ -4,6 +4,103 @@ import sys
 def ConvertNameOfficial(name):
     return name
 
+def GetSliceX(plot, index):
+    
+    return plot.ProjectionX(plot.GetName() + "_sliceX_" + str(index),
+                            index+1,index+1)
+                                
+def GetSliceY(plot, index):
+    
+    return plot.ProjectionY(plot.GetName() + "_sliceY_"+ str(index),
+                            index+1,index+1)
+
+
+def MakeTH2Figure(names,files):
+    
+    name_official = names[0]
+    file_official = files[0]
+    mc_official = file_official.Get(name_official)
+
+    name_nuisance = names[1]
+    file_nuisance = files[1]
+    data_nuisance = infile_nuisance.Get(name_nuisance + "_data")
+    mc_nuisance   = infile_nuisance.Get(name_nuisance + "_MC")
+
+    if name_official == "cc_visEq3_xsec_CV_WithErr":
+        mc_official.Scale(1E-42)
+    
+    SliceDim = names[2]
+    HistNames = []
+    if SliceDim == "Y":
+        for i in range(data_nuisance.GetNbinsX()):
+            data_nuisance_slice = GetSliceY(data_nuisance,i)
+            data_nuisance_slice.SetLineColor(kBlack)
+            data_nuisance_slice.SetMarkerStyle(20)
+            data_nuisance_slice.SetMarkerSize(0.6)
+            data_nuisance_slice.SetLineWidth(2)
+            data_nuisance_slice.SetTitle(ConvertNameOfficial(name_official))
+            data_nuisance_slice.GetYaxis().SetRangeUser(0.0, data_nuisance_slice.GetMaximum()*2.0)
+            data_nuisance_slice.Draw("E1")
+
+            mc_nuisance_slice = GetSliceY(mc_nuisance,i)
+            mc_nuisance_slice.SetTitle("NUISANCE")
+            mc_nuisance_slice.SetLineColor(kBlue)
+            mc_nuisance_slice.SetLineWidth(2)
+            mc_nuisance_slice.Draw("SAME HIST")
+
+            mc_official_slice = GetSliceY(mc_official,i)
+            mc_official_slice.SetLineColor(kRed)
+            mc_official_slice.SetLineStyle(7)
+            mc_official_slice.SetLineWidth(2)
+            mc_official_slice.Draw("SAME HIST")
+
+            gPad.Update()
+            gPad.BuildLegend(0.5,0.5,0.82,0.85)
+
+            data_nuisance_slice.SetTitle(name_nuisance)
+            gStyle.SetOptTitle(1)
+            
+            gPad.Update()
+            gPad.SaveAs("figures/" + name_official + "_slice_" + str(i) + "_comp.png")
+            HistNames.append("figures/" + name_official + "_slice_" + str(i) + "_comp.png")
+    
+    elif SliceDim == "X":
+        for i in range(data_nuisance.GetNbinsY()):
+            data_nuisance_slice = GetSliceX(data_nuisance,i)
+            data_nuisance_slice.SetLineColor(kBlack)
+            data_nuisance_slice.SetMarkerStyle(20)
+            data_nuisance_slice.SetMarkerSize(0.6)
+            data_nuisance_slice.SetLineWidth(2)
+            data_nuisance_slice.SetTitle(ConvertNameOfficial(name_official))
+            data_nuisance_slice.GetYaxis().SetRangeUser(0.0, data_nuisance_slice.GetMaximum()*2.0)
+            data_nuisance_slice.Draw("E1")
+
+            mc_nuisance_slice = GetSliceX(mc_nuisance,i)
+            mc_nuisance_slice.SetTitle("NUISANCE")
+            mc_nuisance_slice.SetLineColor(kBlue)
+            mc_nuisance_slice.SetLineWidth(2)
+            mc_nuisance_slice.Draw("SAME HIST")
+
+            mc_official_slice = GetSliceX(mc_official,i)
+            mc_official_slice.SetLineColor(kRed)
+            mc_official_slice.SetLineStyle(7)
+            mc_official_slice.SetLineWidth(2)
+            mc_official_slice.Draw("SAME HIST")
+
+            gPad.Update()
+            gPad.BuildLegend(0.5,0.5,0.82,0.85)
+
+            data_nuisance_slice.SetTitle(name_nuisance)
+            gStyle.SetOptTitle(1)
+
+            gPad.Update()
+            gPad.SaveAs("figures/" + name_official + "_slice_" + str(i) + "_comp.png")
+            HistNames.append("figures/" + name_official + "_slice_" + str(i) + "_comp.png")
+
+    return HistNames
+
+
+
 def MakeTH1Figure(names,files):
 
     name_official = names[0]
@@ -75,7 +172,7 @@ def PrintInfo(names,files):
 if __name__=="__main__":
 
     filename_nuisance = sys.argv[1]
-    infile_official = TFile("original-minerva-mcplots.root","READ")
+    infile_official = TFile("original-minerva-mcplots-with286.root","READ")
     infile_nuisance = TFile(filename_nuisance,"READ")
     filelist = []
     filelist.append(infile_official)
@@ -102,12 +199,14 @@ if __name__=="__main__":
     plotlist.append( ["minerva_numu_cc1pipangle_eberly","MINERvA_CC1pip_XSec_1Dth_nu"])
     plotlist.append( ["minerva_cc1piptpi_eberly","MINERvA_CC1pip_XSec_1DTpi_nu"])
     
-    plotlist.append( ["minerva_cc1pip_angle_2016","MINERvA_CC1pip_XSec_1Dthmu_nu_2017"])
-    plotlist.append( ["minerva_cc1pipangle_2016","MINERvA_CC1pip_XSec_1Dth_nu_2017"])
-    plotlist.append( ["minerva_cc1pipenu_2016","MINERvA_CC1pip_XSec_1DEnu_nu_2017"])
-    plotlist.append( ["minerva_cc1pipke_2016","MINERvA_CC1pip_XSec_1DTpi_nu_2017"])
-    plotlist.append( ["minerva_cc1pipmuonmom_2016","MINERvA_CC1pip_XSec_1Dpmu_nu_2017"])
-    plotlist.append( ["minerva_cc1pipq2_2016","MINERvA_CC1pip_XSec_1DQ2_nu_2017"])
+    plotlist.append( ["minerva_cc1pipthpi_2017","MINERvA_CC1pip_XSec_1Dth_nu_2017"])
+
+    plotlist.append( ["minerva_cc1pip_angle_2016","MINERvA_CCNpip_XSec_1Dthmu_nu"])
+    plotlist.append( ["minerva_cc1pipangle_2016","MINERvA_CCNpip_XSec_1Dth_nu_2016"])
+    plotlist.append( ["minerva_cc1pipenu_2016","MINERvA_CCNpip_XSec_1DEnu_nu"])
+    plotlist.append( ["minerva_cc1pipke_2016","MINERvA_CCNpip_XSec_1DTpi_nu_2016"])
+    plotlist.append( ["minerva_cc1pipmuonmom_2016","MINERvA_CCNpip_XSec_1Dpmu_nu"])
+    plotlist.append( ["minerva_cc1pipq2_2016","MINERvA_CCNpip_XSec_1DQ2_nu"])
 
     plotlist.append( ["minerva_ccnpipangle_eberly","MINERvA_CCNpip_XSec_1Dth_nu"])
     plotlist.append( ["minerva_ccnpiptpi_eberly","MINERvA_CCNpip_XSec_1DTpi_nu"])
@@ -129,7 +228,7 @@ if __name__=="__main__":
     plotlist.append( ["minerva_cohthetapinumubar","MINERvA_CCCOHPI_XSec_1Dth_antinu"])
     plotlist.append( ["minerva_cohtpinumubar","MINERvA_CCCOHPI_XSec_1DEpi_antinu"])
 
-    plotlist.append( ["minerva_ccinceav2D_284","MINERvA_CCinc_XSec_2DEavq3_nu","Y"])
+    plotlist.append( ["cc_visEq3_xsec_CV_WithErr","MINERvA_CCinc_XSec_2DEavq3_nu","Y"])
 
     plotlist.append( ["minerva_numu_ccincratio_enuC","MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH"])
     plotlist.append( ["minerva_numu_ccincratio_enuFe","MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH"])
@@ -139,7 +238,6 @@ if __name__=="__main__":
     plotlist.append( ["minerva_numu_ccincratio_xFe","MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH"])
     plotlist.append( ["minerva_numu_ccincratio_xPb","MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH"])
 
-    
     allhist = []
     allinfo = []
     
@@ -147,15 +245,22 @@ if __name__=="__main__":
 
         data_nuisance = infile_nuisance.Get(names[1] + "_data")
         if not data_nuisance: continue
+        
+        mc_official = infile_official.Get(names[0])
+        if not mc_official: continue
 
         hist = ""
-        if "TH2" in str(type(data_nuisance)): print "TH2D"
-        else: hist = MakeTH1Figure(names,filelist)
         info = PrintInfo(names,filelist)
+        if "TH2" in str(type(data_nuisance)): 
+            hists = MakeTH2Figure(names,filelist)
+            for hist in hists:
+                allhist.append(hist)
+                allinfo.append(info)
+        else: 
+            hist = MakeTH1Figure(names,filelist)
+            allhist.append(hist)
+            allinfo.append(info)
 
-        allhist.append(hist)
-        allinfo.append(info)
-    
 
     # Now Make a Latex Document
     f = open(filename_nuisance.replace(".root","")+".tex","w")

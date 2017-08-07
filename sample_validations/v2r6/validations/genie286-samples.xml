@@ -1,6 +1,0 @@
-<nuisance>
-  <config GENIE_DIR="../../../eventgenerator/genie/R-2_8_6/OfficialDefault-Default" />
-
-  <sample name="MINERvA_CCinc_XSec_2DEavq3_nu"   input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
-
-</nuisance>

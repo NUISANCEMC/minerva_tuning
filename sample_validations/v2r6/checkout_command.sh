@@ -1,1 +1,0 @@
-git clone http://nuisance.hepforge.org/git/nuisance.git -b v2r6 ./nuisance/

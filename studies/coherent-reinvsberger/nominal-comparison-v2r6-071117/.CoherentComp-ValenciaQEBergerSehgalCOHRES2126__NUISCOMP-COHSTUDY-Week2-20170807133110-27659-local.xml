@@ -1,0 +1,10 @@
+<nuisance>
+
+  <sample input="GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" name="MINERvA_CCCOHPI_XSec_1DEnu_nu" />
+  <sample input="GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" name="MINERvA_CCCOHPI_XSec_1DEpi_nu" />
+  <sample input="GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" name="MINERvA_CCCOHPI_XSec_1Dth_nu" />
+  <sample input="GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" name="MINERvA_CCCOHPI_XSec_1DEnu_antinu" />
+  <sample input="GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" name="MINERvA_CCCOHPI_XSec_1DEpi_antinu" />
+  <sample input="GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" name="MINERvA_CCCOHPI_XSec_1Dth_antinu" />
+
+</nuisance>

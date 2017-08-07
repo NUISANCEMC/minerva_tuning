@@ -1,0 +1,3 @@
+#!/bin/sh
+source /cvmfs/fermilab.opensciencegrid.org/products/common/etc/setups.sh && setup jobsub_client
+jobsub_submit -G minerva -M --OS=SL6 --resource-provides=usage_model=DEDICATED --expected-lifetime=2h --memory=2000MB file:///minerva/data/users/jstowell/NUISANCEMC/minerva_tuning/studies/coherent-reinvsberger/nominal-comparison-v2r6-071117/CoherentComp-Default2126__NUISCOMP-COHSTUDY-Week2-20170807125203-18245-local.xml__NUISCOMP-COHSTUDY-Week2-20170807125203-18245.sh

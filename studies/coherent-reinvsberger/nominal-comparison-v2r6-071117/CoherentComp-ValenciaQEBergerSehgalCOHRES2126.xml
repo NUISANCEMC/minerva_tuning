@@ -1,0 +1,10 @@
+<nuisance>
+
+  <sample name="MINERvA_CCCOHPI_XSec_1DEnu_nu" input="GENIE:/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1DEpi_nu" input="GENIE:/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1Dth_nu" input="GENIE:/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1DEnu_antinu" input="GENIE:/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1DEpi_antinu" input="GENIE:/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1Dth_antinu" input="GENIE:/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+
+</nuisance>

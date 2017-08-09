@@ -3,6 +3,8 @@
 
   <sample name="MINERvA_CCinc_XSec_2DEavq3_nu"    input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
 
+  <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu"  input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+
   <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtC_nu"  input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.C.2500000.5.prepared.root" />
   <sample name="MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu" input="GENIE:@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.C.2500000.5.prepared.root;@GENIE_DIR/gntp.R-2_8_6.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
 

@@ -80,4 +80,12 @@
   <sample name="MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.Fe.2500000.6.prepared.root;GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root"/>
   <sample name="MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.Pb.2500000.7.prepared.root;GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root"/>
 
+  <sample name="MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.C.2500000.5.prepared.root;GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.Fe.2500000.6.prepared.root;GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root"/>
+  <sample name="MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.Pb.2500000.7.prepared.root;GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root"/>
+
+  <sample name="MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH"  input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.C.2500000.5.prepared.root;GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.Fe.2500000.6.prepared.root;GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root"/>
+  <sample name="MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.Pb.2500000.7.prepared.root;GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root"/>
+
 </nuisance>

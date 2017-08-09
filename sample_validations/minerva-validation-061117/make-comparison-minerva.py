@@ -200,6 +200,11 @@ if __name__=="__main__":
     plotlist.append( ["minerva_cc1piptpi_eberly","MINERvA_CC1pip_XSec_1DTpi_nu"])
     
     plotlist.append( ["minerva_cc1pipthpi_2017","MINERvA_CC1pip_XSec_1Dth_nu_2017"])
+    plotlist.append( ["minerva_cc1pip_tpi_2017","MINERvA_CC1pip_XSec_1DTpi_nu_2017"])
+    plotlist.append( ["minerva_cc1pip_thetamu_2017", "MINERvA_CC1pip_XSec_1Dthmu_nu_2017"])
+    plotlist.append( ["minerva_cc1pip_pmu_2017", "MINERvA_CC1pip_XSec_1Dpmu_nu_2017"])
+    plotlist.append( ["minerva_cc1pip_q2_2017", "MINERvA_CC1pip_XSec_1DQ2_nu_2017"])
+    plotlist.append( ["minerva_cc1pip_enu_2017", "MINERvA_CC1pip_XSec_1DEnu_nu_2017"])
 
     plotlist.append( ["minerva_cc1pip_angle_2016","MINERvA_CCNpip_XSec_1Dthmu_nu"])
     plotlist.append( ["minerva_cc1pipangle_2016","MINERvA_CCNpip_XSec_1Dth_nu_2016"])
@@ -237,6 +242,14 @@ if __name__=="__main__":
     plotlist.append( ["minerva_numu_ccincratio_xC","MINERvA_CCinc_XSec_1Dx_ratio_C12_CH"])
     plotlist.append( ["minerva_numu_ccincratio_xFe","MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH"])
     plotlist.append( ["minerva_numu_ccincratio_xPb","MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH"])
+
+    plotlist.append( ["minerva_ccdis_enu_C","MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH"] )
+    plotlist.append( ["minerva_ccdis_enu_Fe","MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH"] )
+    plotlist.append( ["minerva_ccdis_enu_Pb","MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH"] )
+
+    plotlist.append( ["minerva_ccdis_x_C","MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH"] )
+    plotlist.append( ["minerva_ccdis_x_Fe","MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH"] )
+    plotlist.append( ["minerva_ccdis_x_Pb","MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH"] )
 
     allhist = []
     allinfo = []

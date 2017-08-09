@@ -1,0 +1,40 @@
+<nuisance>
+  <config GENIE_DIR="/data/stowell/NIWG/NUISANCEMC/minerva_tuning/sample_validations/mc_runs/genie-R-2_6_3-Default-Default/"/>
+
+
+  <sample name="MINERvA_CC1pip_XSec_1DTpi_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DTpi_nu_20deg" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DTpi_nu_fluxcorr" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DTpi_nu_20deg_fluxcorr" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dth_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dth_nu_20deg" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dth_nu_fluxcorr" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dth_nu_20deg_fluxcorr" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+
+  <sample name="MINERvA_CCNpip_XSec_1Dth_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dth_nu_2015" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dth_nu_2016" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dth_nu_2015_20deg" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dth_nu_2015_fluxcorr" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dth_nu_2015_20deg_fluxcorr" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DTpi_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DTpi_nu_2015" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DTpi_nu_2016" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DTpi_nu_2015_20deg" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DTpi_nu_2015_fluxcorr" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DTpi_nu_2015_20deg_fluxcorr" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dthmu_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dpmu_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DQ2_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DEnu_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+
+  <sample name="MINERvA_CC1pip_XSec_1DTpi_nu_2017"  input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dth_nu_2017"   input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dpmu_nu_2017"  input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dthmu_nu_2017" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DQ2_nu_2017"   input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DEnu_nu_2017"  input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
+
+
+
+</nuisance>

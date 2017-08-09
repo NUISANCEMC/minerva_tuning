@@ -1,0 +1,18 @@
+<nuisance>
+  <config GENIE_DIR="/data/stowell/NIWG/NUISANCEMC/minerva_tuning/sample_validations/mc_runs/genie-R-2_6_3-Default-Default/"/>
+
+  <sample name="MINERvA_CCCOHPI_XSec_1DEnu_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" 
+	  data="Enu_nu_data.csv" covar="Enu_nu_cov.csv" />
+  <sample name="MINERvA_CCCOHPI_XSec_1DEpi_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" 
+	  data="Epi_nu_data.csv" covar="Epi_nu_cov.csv" />
+  <sample name="MINERvA_CCCOHPI_XSec_1Dth_nu"  input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" 
+	  data="Thpi_nu_data.csv" covar="Thpi_nu_cov.csv" />
+  
+  <sample name="MINERvA_CCCOHPI_XSec_1DEnu_antinu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_rhc_numubar.CH.2500000.2.prepared.root" 
+	  data="Enu_nubar_data.csv" covar="Enu_nubar_cov.csv" />
+  <sample name="MINERvA_CCCOHPI_XSec_1DEpi_antinu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_rhc_numubar.CH.2500000.2.prepared.root" 
+	  data="Epi_nubar_data.csv" covar="Epi_nubar_cov.csv" />
+  <sample name="MINERvA_CCCOHPI_XSec_1Dth_antinu"  input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_rhc_numubar.CH.2500000.2.prepared.root" 
+	  data="Thpi_nubar_data.csv" covar="Thpi_nubar_cov.csv" />
+
+</nuisance>

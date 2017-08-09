@@ -183,11 +183,11 @@ if __name__=="__main__":
     plotlist.append( ["minerva_nubar_ccqe","MINERvA_CCQE_XSec_1DQ2_antinu"])
 
     plotlist.append( ["minerva_cc0pi1p_2015","MINERvA_CC0pi_XSec_1DQ2_nu_proton"])
-    plotlist.append( ["minerva_cc0piC_Q2",""])
+    plotlist.append( ["Carbon","MINERvA_CC0pi_XSec_1DQ2_TgtC_nu"])
     plotlist.append( ["minerva_cc0piC_Q2ratio",""])
-    plotlist.append( ["minerva_cc0piFe_Q2",""])
+    plotlist.append( ["Iron","MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu"])
     plotlist.append( ["minerva_cc0piFe_Q2ratio",""])
-    plotlist.append( ["minerva_cc0piPb_Q2",""])
+    plotlist.append( ["Lead","MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu"])
     plotlist.append( ["minerva_cc0piPb_Q2ratio",""])
 
     plotlist.append( ["minerva_nueee","MINERvA_CC0pi_XSec_1DEe_nue"])

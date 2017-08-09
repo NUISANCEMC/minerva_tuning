@@ -1,5 +1,5 @@
 <nuisance>
-  <config GENIE_DIR="/data/stowell/NIWG/NPCTuning/Validations/mc_runs/genie-R-2_6_3-Default-Default/" />
+  <config GENIE_DIR="/data/stowell/NIWG/NUISANCEMC/minerva_tuning/sample_validations/mc_runs/genie-R-2_6_3-Default-Default/"/>
 
   <sample name="MINERvA_CCQE_XSec_1DQ2_nu" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />
   <sample name="MINERvA_CCQE_XSec_1DQ2_nu_20deg" input="GENIE:@GENIE_DIR/gntp.R-2_6_3.OfficialDefault.Default.MINERvA_fhc_numu.CH.2500000.1.prepared.root" />

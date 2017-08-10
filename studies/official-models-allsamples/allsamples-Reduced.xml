@@ -1,0 +1,54 @@
+<nuisance>
+<config GENIE_DIR=""
+
+<sample name="MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC0pi_XSec_1DQ2_TgtC_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CC0pi_XSec_1DEe_nue" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC0pi_XSec_1DQ2_nue" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC0pi_XSec_1DThetae_nue" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CC1pip_XSec_1Dpmu_nu_2017" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pip_XSec_1DTpi_nu_2017" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pip_XSec_1Dth_nu_2017" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pip_XSec_1Dthmu_nu_2017" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pip_XSec_1DQ2_nu_2017" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CCNpip_XSec_1Dpmu_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCNpip_XSec_1Dth_nu_2016" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCNpip_XSec_1DTpi_nu_2016" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCNpip_XSec_1Dthmu_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCNpip_XSec_1DQ2_nu" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CC1pi0_XSec_1Dth_antinu_2016" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pi0_XSec_1DTpi0_antinu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pi0_XSec_1DQ2_antinu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pi0_XSec_1Dthmu_antinu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pi0_XSec_1Dpmu_antinu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CC1pi0_XSec_1DEnu_antinu" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CCinc_XSec_2DEavq3_nu" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CCinc_XSec_1Dx_ratio_C12_CH" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CCCOHPI_XSec_1DEpi_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCCOHPI_XSec_1Dth_nu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCCOHPI_XSec_1DEpi_antinu" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCCOHPI_XSec_1Dth_antinu" input="GENIE:@GENIE_DIR/file.root" />
+
+<sample name="MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/file.root" />
+<sample name="MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/file.root" />
+
+
+
+
+</nuisance>

@@ -1,0 +1,1020 @@
+[ NUISANCE ]: Loading DEFAULT config from : /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/parameters/config.xml -> DONE.
+[1m[32m[LOG Fitter]: [0mStarting nuiscomp.exe
+[ NUISANCE ]: Trying to parse file : ../../allsamples-LOCAL.xml -> Found XML file.
+[ NUISANCE ]: Loading XML config from : ../../allsamples-LOCAL.xml -> DONE.
+[ NUISANCE ]: Finalising configuration-> DONE.
+[ NUISANCE ]: Setting VERBOSITY=5
+[ NUISANCE ]: Setting ERROR=2
+[1m[32m[LOG Fitter]: [0mSetting up nuiscomp
+[1m[32m[LOG Fitter]: [0mNumber of samples : 53
+[1m[32m[LOG Fitter]: [0mRead Sample 0. : MINERvA_CCQE_XSec_1DQ2_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 1. : MINERvA_CCQE_XSec_1DQ2_nu_20deg (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 2. : MINERvA_CCQE_XSec_1DQ2_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 3. : MINERvA_CCQE_XSec_1DQ2_antinu_20deg (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 4. : MINERvA_CCQE_XSec_1DQ2_joint (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root;gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 5. : MINERvA_CCQE_XSec_1DQ2_joint_20deg (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root;gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 6. : MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 7. : MINERvA_CC0pi_XSec_1DQ2_TgtC_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 8. : MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 9. : MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 10. : MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 11. : MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 12. : MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 13. : MINERvA_CC0pi_XSec_1DEe_nue (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_nuenuebar.CH.2500000.3.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 14. : MINERvA_CC0pi_XSec_1DQ2_nue (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_nuenuebar.CH.2500000.3.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 15. : MINERvA_CC0pi_XSec_1DThetae_nue (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_nuenuebar.CH.2500000.3.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 16. : MINERvA_CC1pip_XSec_1Dpmu_nu_2017 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 17. : MINERvA_CC1pip_XSec_1DTpi_nu_2017 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 18. : MINERvA_CC1pip_XSec_1Dth_nu_2017 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 19. : MINERvA_CC1pip_XSec_1Dthmu_nu_2017 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 20. : MINERvA_CC1pip_XSec_1DQ2_nu_2017 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 21. : MINERvA_CC1pip_XSec_1DEnu_nu_2017 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 22. : MINERvA_CCNpip_XSec_1Dpmu_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 23. : MINERvA_CCNpip_XSec_1Dth_nu_2016 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 24. : MINERvA_CCNpip_XSec_1DTpi_nu_2016 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 25. : MINERvA_CCNpip_XSec_1Dthmu_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 26. : MINERvA_CCNpip_XSec_1DQ2_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 27. : MINERvA_CCNpip_XSec_1DEnu_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 28. : MINERvA_CC1pi0_XSec_1Dth_antinu_2016 (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 29. : MINERvA_CC1pi0_XSec_1DTpi0_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 30. : MINERvA_CC1pi0_XSec_1DQ2_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 31. : MINERvA_CC1pi0_XSec_1Dthmu_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 32. : MINERvA_CC1pi0_XSec_1Dpmu_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 33. : MINERvA_CC1pi0_XSec_1DEnu_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 34. : MINERvA_CCinc_XSec_2DEavq3_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 35. : MINERvA_CCinc_XSec_1Dx_ratio_C12_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 36. : MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 37. : MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 38. : MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 39. : MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 40. : MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 41. : MINERvA_CCCOHPI_XSec_1DEpi_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 42. : MINERvA_CCCOHPI_XSec_1Dth_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 43. : MINERvA_CCCOHPI_XSec_1DEnu_nu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 44. : MINERvA_CCCOHPI_XSec_1DEpi_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 45. : MINERvA_CCCOHPI_XSec_1Dth_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 46. : MINERvA_CCCOHPI_XSec_1DEnu_antinu (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 47. : MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 48. : MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 49. : MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 50. : MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 51. : MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mRead Sample 52. : MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH (DEFAULT) [Norm=1]
+                                -> input='GENIE:gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root;GENIE:gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root'
+[1m[32m[LOG Fitter]: [0mSetting up FitWeight Engine
+[1m[32m[LOG Fitter]: [0mBuilding the SampleFCN
+[1m[34m[LOG Minmzr]:- [0mLoading Samples : 53
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_nu
+[35m[LOG Sample]:-- [0mCreating GENIEInputHandler : MINERvA_CCQE_XSec_1DQ2_nu
+		|-> Total Entries    : 2500000
+		|-> Event Integral   : 6.40557e-36 events/nucleon
+		|-> Flux Integral    : 142.944 /cm2
+		|-> Event/Flux       : 4.48119e-38 cm2/nucleon
+
+
+********************************************************************************************************
+********************************************************************************************************
+**                                                                                                    **
+**   .oooooo.    oooooooooooo ooooo      ooo ooooo oooooooooooo                                       **
+**  d8P'  `Y8b   `888'     `8 `888b.     `8' `888' `888'     `8      NEUTRINO MONTE CARLO GENERATOR   **
+** 888            888          8 `88b.    8   888   888                                               **
+** 888            888oooo8     8   `88b.  8   888   888oooo8              Version 2.12.6              **
+** 888     ooooo  888    "     8     `88b.8   888   888    "                                          **
+** `88.    .88'   888       o  8       `888   888   888       o         http://www.genie-mc.org       **
+**  `Y8bood8P'   o888ooooood8 o8o        `8  o888o o888ooooood8                                       **
+**                                                                                                    **
+**                                                                                                    **
+**              Luis Alvarez-Ruso [8], Costas Andreopoulos (*) [2,5], Christopher Barry [2],          **
+**   Francis Bench [2], Steve Dennis [2], Steve Dytman [3], Hugh Gallagher [7], Tomasz Golan [1,4],   **
+**         Robert Hatcher [1], Rhiannon Jones [2], Libo Jiang [3], Anselmo Meregaglia [6],            **
+**                      Donna Naples [3], Gabriel Perdue [1], Marco Roda [2],                         **
+**                                Jeremy Wolcott [7], Julia Yarba [1]                                 **
+**                                                                                                    **
+**                                     (The GENIE Collaboration)                                      **
+**                                                                                                    **
+**                          (1) Fermi National Accelerator Laboratory, USA                            **
+**                                 (2) University of Liverpool, UK                                    **
+**                                (3) University of Pittsburgh, USA                                   **
+**                                 (4) University of Rochester, USA                                   **
+**                             (5) STFC Rutherford Appleton Laboratory UK                             **
+**                                   (6) Strasbourg IPHC, France                                      **
+**                                    (7) Tufts University, USA                                       **
+**                                 (8) University of Valencia, Spain                                  **
+**                                                                                                    **
+**                                                                                                    **
+** (*) Corresponding Author: Dr. Costas Andreopoulos  <costas.andreopoulos \at stfc.ac.uk>            **
+**      -----------------------------------------------------------------                             **
+**     | University of Liverpool  |  STFC Rutherford Appleton Laboratory |                            **
+**     | Physics Department       |  Particle Physics Department         |                            **
+**     | Oliver Lodge Lab 316     |  Harwell Oxford Campus, R1 2.89      |                            **
+**     | Liverpool L69 7ZE, UK    |  Oxfordshire OX11 0QX, UK            |                            **
+**     | +44-(0)1517-943201 (tel) |  +44-(0)1235-445091 (tel)            |                            **
+**      -----------------------------------------------------------------                             **
+**                                                                                                    **
+** (c) 2003-2017 GENIE Collaboration                                                                  **
+**                                                                                                    **
+** This program is free software: you can redistribute it and/or modify it under the terms of         **
+** the GNU General Public License as published by the Free Software Foundation, either version 3 of   **
+** the License, or any later version.                                                                 **
+** This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;          **
+** without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.          **
+** See the GNU General Public License for more details.                                               **
+** You should have received a copy of the GNU General Public License along with this program.         **
+** If not, see <http://www.gnu.org/licenses/>.                                                        **
+********************************************************************************************************
+********************************************************************************************************
+
+
+1502335924 NOTICE Messenger : [s] <SetPrioritiesFromXmlFile (158)> : Reading msg stream priorities from XML file: /cvmfs/minerva.opensciencegrid.org/minerva/NUISANCE_080117/genie/R-2_12_6/genie-R-2_12_6-build-2017-08-01/config/Messenger.xml
+[35m[LOG Sample]:-- [0mRegistered MINERvA_CCQE_XSec_1DQ2_nu with EventManager.
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_numu_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_numu_covar_fluxfix.txt
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_nu_20deg
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_nu_20deg
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_nu_20deg
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_numu_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_numu_covar_fluxfix.txt;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_nu_20deg
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_antinu
+[35m[LOG Sample]:-- [0mCreating GENIEInputHandler : MINERvA_CCQE_XSec_1DQ2_antinu
+		|-> Total Entries    : 2500000
+		|-> Event Integral   : 2.11523e-36 events/nucleon
+		|-> Flux Integral    : 115.615 /cm2
+		|-> Event/Flux       : 1.82954e-38 cm2/nucleon
+[35m[LOG Sample]:-- [0mRegistered MINERvA_CCQE_XSec_1DQ2_antinu with EventManager.
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_antinu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_numubar_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_numubar_covar_fluxfix.txt;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_antinu_20deg
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_antinu_20deg
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_antinu_20deg
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_numubar_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_numubar_covar_fluxfix.txt;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_antinu_20deg
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_joint
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_joint
+Finalising sample settings for joint fit = 1
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_joint
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_joint_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_joint_covar_fluxfix.txt
+Error in <TDecompChol::Decompose()>: matrix not positive definite
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_antinu_newflux
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_antinu_newflux
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_numubar_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_numubar_covar_fluxfix.txt;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_antinu_newflux
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_nu_newflux
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_nu_newflux
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_numu_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/Q2QE_numu_covar_fluxfix.txt
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_nu_newflux
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_joint
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_joint_20deg
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_joint_20deg
+Finalising sample settings for joint fit = 1
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_joint_20deg
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_joint_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_joint_covar_fluxfix.txt;16
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_antinu_20deg_newflux
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_antinu_20deg_newflux
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_numubar_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_numubar_covar_fluxfix.txt;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_antinu_20deg_newflux
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCQE_XSec_1DQ2_nu_20deg_newflux
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCQE_XSec_1DQ2_nu_20deg_newflux
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_numu_data_fluxfix.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCQE/20deg_Q2QE_numu_covar_fluxfix.txt;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_nu_20deg_newflux
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCQE_XSec_1DQ2_joint_20deg
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+[35m[LOG Sample]:-- [0mCreating GENIEInputHandler : MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+		|-> Total Entries    : 2500000
+		|-> Event Integral   : 6.55962e-36 events/nucleon
+		|-> Flux Integral    : 142.944 /cm2
+		|-> Event/Flux       : 4.58896e-38 cm2/nucleon
+[35m[LOG Sample]:-- [0mRegistered MINERvA_CC0pi_XSec_1DQ2_TgtC_nu with EventManager.
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+[35m[LOG Sample]:-- [0mCreating GENIEInputHandler : MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+		|-> Total Entries    : 2500000
+		|-> Event Integral   : 6.64357e-36 events/nucleon
+		|-> Flux Integral    : 142.944 /cm2
+		|-> Event/Flux       : 4.64769e-38 cm2/nucleon
+[35m[LOG Sample]:-- [0mRegistered MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu with EventManager.
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_Fe_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_Fe_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+[35m[LOG Sample]:-- [0mCreating GENIEInputHandler : MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+		|-> Total Entries    : 2500000
+		|-> Event Integral   : 6.8941e-36 events/nucleon
+		|-> Flux Integral    : 142.944 /cm2
+		|-> Event/Flux       : 4.82295e-38 cm2/nucleon
+[35m[LOG Sample]:-- [0mRegistered MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu with EventManager.
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_Pb_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_Pb_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_TgtRatio_C_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_TgtRatio_C_covar.txt;5
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_data.txt
+Warning in <TFile::Append>: Replacing existing TH1: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu_data (Potential memory leak).
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_TgtRatio_Fe_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_TgtRatio_Fe_covar.txt;5
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_Fe_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_Fe_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_data.txt
+Warning in <TFile::Append>: Replacing existing TH1: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu_data (Potential memory leak).
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_TgtRatio_Pb_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_TgtRatio_Pb_covar.txt;5
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_Pb_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_Pb_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_data.txt
+Warning in <TFile::Append>: Replacing existing TH1: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu_data (Potential memory leak).
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/Q2_Tgt_C_covar.txt;5
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DEe_nue
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DEe_nue
+[35m[LOG Sample]:-- [0mCreating GENIEInputHandler : MINERvA_CC0pi_XSec_1DEe_nue
+		|-> Total Entries    : 2500000
+		|-> Event Integral   : 2.08312e-37 events/nucleon
+		|-> Flux Integral    : 2.39256 /cm2
+		|-> Event/Flux       : 8.70663e-38 cm2/nucleon
+[35m[LOG Sample]:-- [0mRegistered MINERvA_CC0pi_XSec_1DEe_nue with EventManager.
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DEe_nue
+[35m[LOG Sample]:-- [0mReading data from root file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/MINERvA_CC0pi_nue_Data_ARX1509_05729.root;Data_1DEe;
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/MINERvA_CC0pi_nue_Data_ARX1509_05729.root;Covar_1DEe;
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DEe_nue
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_nue
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DQ2_nue
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_nuenuebar.CH.2500000.3.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DQ2_nue
+[35m[LOG Sample]:-- [0mReading data from root file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/MINERvA_CC0pi_nue_Data_ARX1509_05729.root;Data_1DQ2;
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/MINERvA_CC0pi_nue_Data_ARX1509_05729.root;Covar_1DQ2;
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DQ2_nue
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC0pi_XSec_1DThetae_nue
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC0pi_XSec_1DThetae_nue
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_nuenuebar.CH.2500000.3.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC0pi_XSec_1DThetae_nue
+[35m[LOG Sample]:-- [0mReading data from root file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/MINERvA_CC0pi_nue_Data_ARX1509_05729.root;Data_1DThetae;
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CC0pi/MINERvA_CC0pi_nue_Data_ARX1509_05729.root;Covar_1DThetae;
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC0pi_XSec_1DThetae_nue
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pip_XSec_1Dpmu_nu_2017
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pip_XSec_1Dpmu_nu_2017
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pip_XSec_1Dpmu_nu_2017
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1Dpmu_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1Dpmu_ratecov.txt;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pip_XSec_1Dpmu_nu_2017
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pip_XSec_1DTpi_nu_2017
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pip_XSec_1DTpi_nu_2017
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pip_XSec_1DTpi_nu_2017
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1DTpi_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1DTpi_ratecov.txt;7
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pip_XSec_1DTpi_nu_2017
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pip_XSec_1Dth_nu_2017
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pip_XSec_1Dth_nu_2017
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pip_XSec_1Dth_nu_2017
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1Dth_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1Dth_ratecov.txt;14
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pip_XSec_1Dth_nu_2017
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pip_XSec_1Dthmu_nu_2017
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pip_XSec_1Dthmu_nu_2017
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pip_XSec_1Dthmu_nu_2017
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1Dthmu_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1Dthmu_ratecov.txt;9
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pip_XSec_1Dthmu_nu_2017
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pip_XSec_1DQ2_nu_2017
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pip_XSec_1DQ2_nu_2017
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pip_XSec_1DQ2_nu_2017
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1DQ2_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1DQ2_ratecov.txt;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pip_XSec_1DQ2_nu_2017
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pip_XSec_1DEnu_nu_2017
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pip_XSec_1DEnu_nu_2017
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pip_XSec_1DEnu_nu_2017
+[35m[LOG Sample]:-- [0m::MINERvA_CC1pip_XSec_1DEnu_nu_2017::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1DEnu_data.txt
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pip/070717/cc1pip_updated_1DEnu_ratecov.txt;8
+Error in <TDecompChol::Decompose()>: matrix not positive definite
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pip_XSec_1DEnu_nu_2017
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCNpip_XSec_1Dpmu_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCNpip_XSec_1Dpmu_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCNpip_XSec_1Dpmu_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCNpip/2016/nu-ccNpi+-xsec-muon-momentum.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCNpip/2016/nu-ccNpi+-correlation-muon-momentum.csv;9
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCNpip_XSec_1Dpmu_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCNpip_XSec_1Dth_nu_2016
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCNpip_XSec_1Dth_nu_2016
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCNpip_XSec_1Dth_nu_2016
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCNpip/2016/nu-ccNpi+-xsec-pion-angle.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCNpip/2016/nu-ccNpi+-correlation-pion-angle.csv;14
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCNpip_XSec_1Dth_nu_2016
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCNpip_XSec_1DTpi_nu_2016
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCNpip_XSec_1DTpi_nu_2016
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCNpip_XSec_1DTpi_nu_2016
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCNpip/2016/nu-ccNpi+-xsec-pion-kinetic-energy.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCNpip/2016/nu-ccNpi+-correlation-pion-kinetic-energy.csv;7
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCNpip_XSec_1DTpi_nu_2016
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCNpip_XSec_1Dthmu_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCNpip_XSec_1Dthmu_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCNpip_XSec_1Dthmu_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCNpip/2016/nu-ccNpi+-xsec-muon-theta.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCNpip/2016/nu-ccNpi+-correlation-muon-angle.csv;9
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCNpip_XSec_1Dthmu_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCNpip_XSec_1DQ2_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCNpip_XSec_1DQ2_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCNpip_XSec_1DQ2_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCNpip/2016/nu-ccNpi+-xsec-q2.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCNpip/2016/nu-ccNpi+-correlation-q2.csv;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCNpip_XSec_1DQ2_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCNpip_XSec_1DEnu_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCNpip_XSec_1DEnu_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCNpip_XSec_1DEnu_nu
+[35m[LOG Sample]:-- [0m::MINERvA_CCNpip_XSec_1DEnu_nu::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCNpip/2016/nu-ccNpi+-xsec-enu.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCNpip/2016/nu-ccNpi+-correlation-enu.csv;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCNpip_XSec_1DEnu_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pi0_XSec_1Dth_antinu_2016
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pi0_XSec_1Dth_antinu_2016
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pi0_XSec_1Dth_antinu_2016
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-xsec-pion-angle.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-correlation-pion-angle.csv;11
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pi0_XSec_1Dth_antinu_2016
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pi0_XSec_1DTpi0_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pi0_XSec_1DTpi0_antinu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pi0_XSec_1DTpi0_antinu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-xsec-pion-kinetic-energy.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-correlation-pion-kinetic-energy.csv;7
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pi0_XSec_1DTpi0_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pi0_XSec_1DQ2_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pi0_XSec_1DQ2_antinu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pi0_XSec_1DQ2_antinu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-xsec-q2.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-correlation-q2.csv;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pi0_XSec_1DQ2_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pi0_XSec_1Dthmu_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pi0_XSec_1Dthmu_antinu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pi0_XSec_1Dthmu_antinu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-xsec-muon-angle.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-correlation-muon-angle.csv;9
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pi0_XSec_1Dthmu_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pi0_XSec_1Dpmu_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pi0_XSec_1Dpmu_antinu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pi0_XSec_1Dpmu_antinu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-xsec-muon-momentum.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-correlation-muon-momentum.csv;9
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pi0_XSec_1Dpmu_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CC1pi0_XSec_1DEnu_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CC1pi0_XSec_1DEnu_antinu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CC1pi0_XSec_1DEnu_antinu
+[35m[LOG Sample]:-- [0m::MINERvA_CC1pi0_XSec_1DEnu_antinu::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-xsec-enu.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CC1pi0/2016/anu-cc1pi0-correlation-enu.csv;8
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CC1pi0_XSec_1DEnu_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCinc_XSec_2DEavq3_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_2DEavq3_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_2DEavq3_nu
+[35m[LOG Sample]:-- [0mCreating Data Histogram dim : 7 17
+[35m[LOG Sample]:-- [0mSetting data values from text file
+[35m[LOG Sample]:-- [0m -> Filling values from read hist.
+[35m[LOG Sample]:-- [0m --> Done
+[35m[LOG Sample]:-- [0mReading map from: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCEavq3/map_2D.txt
+[35m[LOG Sample]:-- [0mReading cholesky from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCEavq3/covar_2D.txt 67
+0x53acb60 0x53d0330 0x53b0430 1e-38
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_2DEavq3_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_ratio_C12_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_ratio_C12_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_ratio_C12_CH
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_C12_CH_ratio_x_data.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_C12_CH_ratio_x_covar.csv;6
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_C12_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_C12_CH_NUM
+[35m[LOG Sample]:-- [0mReading smearing matrix from file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_C12_x_smear.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_C12_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1Dx_C12_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_C12_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_C12_CH_DEN
+[35m[LOG Sample]:-- [0mReading smearing matrix from file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_CH_x_smear.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_C12_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1Dx_C12_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_ratio_C12_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Fe56_CH_ratio_x_data.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Fe56_CH_ratio_x_covar.csv;6
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mReading smearing matrix from file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Fe56_x_smear.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1Dx_Fe56_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mReading smearing matrix from file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_CH_x_smear.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1Dx_Fe56_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Pb208_CH_ratio_x_data.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Pb208_CH_ratio_x_covar.csv;6
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mReading smearing matrix from file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Pb208_x_smear.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1Dx_Pb208_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1Dx_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1Dx_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mReading smearing matrix from file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_CH_x_smear.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1Dx_Pb208_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_C12_CH_ratio_Enu_data.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_C12_CH_ratio_Enu_covar.csv;8
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_C12_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_C12_CH_NUM
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_C12_CH_NUM::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_C12_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1DEnu_C12_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_C12_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_C12_CH_DEN
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_C12_CH_DEN::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_C12_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1DEnu_C12_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Fe56_CH_ratio_Enu_data.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Fe56_CH_ratio_Enu_covar.csv;8
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_Fe56_CH_NUM::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1DEnu_Fe56_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_Fe56_CH_DEN::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1DEnu_Fe56_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Pb208_CH_ratio_Enu_data.csv
+[35m[LOG Sample]:-- [0mReading data correlations from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data//MINERvA/CCinc/CCinc_Pb208_CH_ratio_Enu_covar.csv;8
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_Pb208_CH_NUM::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1DEnu_Pb208_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCinc_XSec_1DEnu_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCinc_XSec_1DEnu_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0m::MINERvA_CCinc_XSec_1DEnu_Pb208_CH_DEN::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCinc_XSec_1DEnu_Pb208_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1DEpi_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1DEpi_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCCOHPI_XSec_1DEpi_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Epi_nu_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Epi_nu_cov.csv
+Error in <TDecompChol::Decompose()>: matrix not positive definite
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCCOHPI_XSec_1DEpi_nu
+MINERvA_CCCOHPI_XSec_1DEpi_nu.cxx : Data Integral = 9.673e-39
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1Dth_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1Dth_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCCOHPI_XSec_1Dth_nu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Thpi_nu_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Thpi_nu_cov.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCCOHPI_XSec_1Dth_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1DEnu_nu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1DEnu_nu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCCOHPI_XSec_1DEnu_nu
+[35m[LOG Sample]:-- [0m::MINERvA_CCCOHPI_XSec_1DEnu_nu::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Enu_nu_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Enu_nu_cov.csv
+Error in <TDecompChol::Decompose()>: matrix not positive definite
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCCOHPI_XSec_1DEnu_nu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1DEpi_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1DEpi_antinu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCCOHPI_XSec_1DEpi_antinu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Epi_nubar_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Epi_nubar_cov.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCCOHPI_XSec_1DEpi_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1Dth_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1Dth_antinu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCCOHPI_XSec_1Dth_antinu
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Thpi_nubar_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Thpi_nubar_cov.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCCOHPI_XSec_1Dth_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1DEnu_antinu
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCCOHPI_XSec_1DEnu_antinu
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCCOHPI_XSec_1DEnu_antinu
+[35m[LOG Sample]:-- [0m::MINERvA_CCCOHPI_XSec_1DEnu_antinu::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Enu_nubar_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCcoh/Enu_nubar_cov.csv
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCCOHPI_XSec_1DEnu_antinu
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_C12_CH_ratio_x_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_C12_CH_ratio_x_stat.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_C12_CH_ratio_x_syst.csv
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_C12_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_C12_CH_NUM
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_C12_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1Dx_C12_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_C12_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_C12_CH_DEN
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_C12_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1Dx_C12_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Fe56_CH_ratio_x_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Fe56_CH_ratio_x_stat.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Fe56_CH_ratio_x_syst.csv
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1Dx_Fe56_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1Dx_Fe56_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Pb208_CH_ratio_x_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Pb208_CH_ratio_x_stat.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Pb208_CH_ratio_x_syst.csv
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1Dx_Pb208_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1Dx_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1Dx_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1Dx_Pb208_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_C12_CH_ratio_Enu_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_C12_CH_ratio_Enu_stat.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_C12_CH_ratio_Enu_syst.csv
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_C12_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.C.2500000.4.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_C12_CH_NUM
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_C12_CH_NUM::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_C12_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1DEnu_C12_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_C12_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_C12_CH_DEN
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_C12_CH_DEN::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_C12_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1DEnu_C12_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Fe56_CH_ratio_Enu_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Fe56_CH_ratio_Enu_stat.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Fe56_CH_ratio_Enu_syst.csv
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Fe.2500000.5.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_NUM::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_DEN::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1DEnu_Fe56_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH
+[1m[34m[LOG Minmzr]:- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalised Sample Settings
+[35m[LOG Sample]:-- [0mReading data from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Pb208_CH_ratio_Enu_data.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Pb208_CH_ratio_Enu_stat.csv
+[35m[LOG Sample]:-- [0mReading covariance from text file: /minerva/app/users/jstowell/NUISANCEMC/nuisance/branches/v2r7/data/MINERvA/CCDIS/CCDIS_Pb208_CH_ratio_Enu_syst.csv
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.Pb.2500000.6.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_NUM::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_NUM
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_NUM_data
+[35m[LOG Sample]:-- [0mLoading Sample : MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mEvent manager already contains gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root
+[35m[LOG Sample]:-- [0mFinalising Sample Settings: MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0m::MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_DEN::
+[35m[LOG Sample]:-- [0mFound XSec Enu measurement, applying flux integrated scaling, not flux averaged!
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_DEN
+[35m[LOG Sample]:-- [0mSetting diagonal covariance for: MINERvA_CCDIS_XSec_1DEnu_Pb208_CH_DEN_data
+[35m[LOG Sample]:-- [0mFinalising Measurement: MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH
+[1m[32m[LOG Fitter]: [0mRunning ComparisonRoutines : Compare
+[1m[32m[LOG Fitter]: [0mRoutine: Compare
+[1m[32m[LOG Fitter]: [0mGenerating Comparison.
+[34m[LOG Reconf]:--- [0mStarting Reconfigure iter. 0
+[34m[LOG Reconf]:--- [0mEvent Manager Reconfigure
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_nu : Processed 0 events. [M, W] = [13, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_nu : Processed 500000 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_nu : Processed 1000000 events. [M, W] = [2, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_nu : Processed 1500000 events. [M, W] = [2, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_nu : Processed 2000000 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_antinu : Processed 0 events. [M, W] = [-12, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_antinu : Processed 500000 events. [M, W] = [-16, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_antinu : Processed 1000000 events. [M, W] = [-34, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_antinu : Processed 1500000 events. [M, W] = [-1, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CCQE_XSec_1DQ2_antinu : Processed 2000000 events. [M, W] = [-21, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtC_nu : Processed 0 events. [M, W] = [13, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtC_nu : Processed 500000 events. [M, W] = [46, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtC_nu : Processed 1000000 events. [M, W] = [12, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtC_nu : Processed 1500000 events. [M, W] = [11, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtC_nu : Processed 2000000 events. [M, W] = [12, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtFe_nu : Processed 0 events. [M, W] = [13, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtFe_nu : Processed 500000 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtFe_nu : Processed 1000000 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtFe_nu : Processed 1500000 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtFe_nu : Processed 2000000 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtPb_nu : Processed 0 events. [M, W] = [13, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtPb_nu : Processed 500000 events. [M, W] = [46, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtPb_nu : Processed 1000000 events. [M, W] = [13, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtPb_nu : Processed 1500000 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DQ2_TgtPb_nu : Processed 2000000 events. [M, W] = [22, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DEe_nue : Processed 0 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DEe_nue : Processed 500000 events. [M, W] = [26, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DEe_nue : Processed 1000000 events. [M, W] = [46, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DEe_nue : Processed 1500000 events. [M, W] = [12, 1]
+[34m[LOG Reconf]:--- [0mMINERvA_CC0pi_XSec_1DEe_nue : Processed 2000000 events. [M, W] = [26, 1]
+Adding MIN_anu_MC 1 : 1 1.07064e-38
+Adding MIN_anu_MC 2 : 2 1.58799e-38
+Adding MIN_anu_MC 3 : 3 1.83252e-38
+Adding MIN_anu_MC 4 : 4 1.70339e-38
+Adding MIN_anu_MC 5 : 5 1.10297e-38
+Adding MIN_anu_MC 6 : 6 4.19193e-39
+Adding MIN_anu_MC 7 : 7 1.38033e-39
+Adding MIN_anu_MC 8 : 8 4.01857e-40
+Adding MIN_nu_MC 9 : 1 9.62295e-39
+Adding MIN_nu_MC 10 : 2 1.79527e-38
+Adding MIN_nu_MC 11 : 3 2.33107e-38
+Adding MIN_nu_MC 12 : 4 2.38151e-38
+Adding MIN_nu_MC 13 : 5 1.68529e-38
+Adding MIN_nu_MC 14 : 6 7.19927e-39
+Adding MIN_nu_MC 15 : 7 2.84228e-39
+Adding MIN_nu_MC 16 : 8 1.08047e-39
+Adding MIN_anu_MC 1 : 1 1.07064e-38
+Adding MIN_anu_MC 2 : 2 1.58799e-38
+Adding MIN_anu_MC 3 : 3 1.83252e-38
+Adding MIN_anu_MC 4 : 4 1.70339e-38
+Adding MIN_anu_MC 5 : 5 1.07359e-38
+Adding MIN_anu_MC 6 : 6 3.49652e-39
+Adding MIN_anu_MC 7 : 7 8.32501e-40
+Adding MIN_anu_MC 8 : 8 1.47259e-40
+Adding MIN_nu_MC 9 : 1 9.62295e-39
+Adding MIN_nu_MC 10 : 2 1.79527e-38
+Adding MIN_nu_MC 11 : 3 2.33107e-38
+Adding MIN_nu_MC 12 : 4 2.38151e-38
+Adding MIN_nu_MC 13 : 5 1.63029e-38
+Adding MIN_nu_MC 14 : 6 5.69001e-39
+Adding MIN_nu_MC 15 : 7 1.49594e-39
+Adding MIN_nu_MC 16 : 8 3.00428e-40
+[34m[LOG Reconf]:--- [0mFilled 25600918 signal events.
+[34m[LOG Reconf]:--- [0mTime taken ReconfigureUsingManager() : 2631
+[1m[34m[LOG Minmzr]:- [0mFinished Reconfigure iter. 0 in 2631s
+[1m[32m[LOG Fitter]: [0m------------
+[1m[32m[LOG Fitter]: [0m #    Parameter  = Value      +- Error      (Units)  Conv. Val  +- Conv. Err  (Units) 
+[1m[32m[LOG Fitter]: [0m------------
+[1m[34m[LOG Minmzr]:- [0mGetting likelihoods...                      : -2logL
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCQE_XSec_1DQ2_nu                : 187.145/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCQE_XSec_1DQ2_nu_20deg          : 93.3033/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCQE_XSec_1DQ2_antinu            : 45.1622/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCQE_XSec_1DQ2_antinu_20deg      : 44.5591/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCQE_XSec_1DQ2_joint             : 619.1/16
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCQE_XSec_1DQ2_joint_20deg       : 123.893/16
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu         : 6.43284/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DQ2_TgtC_nu          : 8.21747/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu         : 10.7092/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu         : 7.80028/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu     : 119.914/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu    : 12.286/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu    : 12.2105/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DEe_nue              : 72.4625/11
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DQ2_nue              : 100.5/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC0pi_XSec_1DThetae_nue          : 105.219/15
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pip_XSec_1Dpmu_nu_2017        : 20.4766/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pip_XSec_1DTpi_nu_2017        : 21.0938/7
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pip_XSec_1Dth_nu_2017         : 180.333/14
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pip_XSec_1Dthmu_nu_2017       : 33.9098/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pip_XSec_1DQ2_nu_2017         : 15.4205/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pip_XSec_1DEnu_nu_2017        : 7.24768/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCNpip_XSec_1Dpmu_nu             : 35.3616/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCNpip_XSec_1Dth_nu_2016         : 57.971/14
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCNpip_XSec_1DTpi_nu_2016        : 38.9015/7
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCNpip_XSec_1Dthmu_nu            : 23.5149/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCNpip_XSec_1DQ2_nu              : 16.8689/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCNpip_XSec_1DEnu_nu             : 22.3262/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pi0_XSec_1Dth_antinu_2016     : 9.78912/11
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pi0_XSec_1DTpi0_antinu        : 18.1053/7
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pi0_XSec_1DQ2_antinu          : 10.428/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pi0_XSec_1Dthmu_antinu        : 10.8704/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pi0_XSec_1Dpmu_antinu         : 7.11676/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CC1pi0_XSec_1DEnu_antinu         : 6.53541/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCinc_XSec_2DEavq3_nu            : 2934.54/67
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCinc_XSec_1Dx_ratio_C12_CH      : 3.90097/6
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH     : 23.9078/6
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH    : 79.2516/6
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH    : 16.0223/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH   : 8.14365/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH  : 6.97755/8
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCCOHPI_XSec_1DEpi_nu            : -64.2948/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCCOHPI_XSec_1Dth_nu             : 44.2846/12
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCCOHPI_XSec_1DEnu_nu            : 26348.1/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCCOHPI_XSec_1DEpi_antinu        : 7.87223/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCCOHPI_XSec_1Dth_antinu         : 19.3665/12
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCCOHPI_XSec_1DEnu_antinu        : 42.7724/9
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH      : 5.38622/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH     : 4.56956/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH    : 6.22474/5
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH    : 4.04898/7
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH   : 7.78744/7
+[1m[34m[LOG Minmzr]:- [0m-> MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH  : 10.0155/7
+[1m[32m[LOG Fitter]: [0mLikelihood for JointFCN:                      31614
+[1m[32m[LOG Fitter]: [0m------------
+[1m[32m[LOG Fitter]: [0mSaving current full FCN predictions
+[1m[34m[LOG Minmzr]:- [0mWriting likelihood plot..
+[1m[34m[LOG Minmzr]:- [0mWriting each of the data classes...
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_nu_20deg
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_antinu_20deg
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_antinu_newflux
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_nu_newflux
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_joint
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_antinu_20deg_newflux
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_nu_20deg_newflux
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCQE_XSec_1DQ2_joint_20deg
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DQ2_TgtCH_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DQ2_TgtC_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DQ2_TgtFe_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DQ2_TgtPb_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DQ2_TgtRatioC_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DQ2_TgtRatioFe_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DQ2_TgtRatioPb_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DEe_nue
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DQ2_nue
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC0pi_XSec_1DThetae_nue
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pip_XSec_1Dpmu_nu_2017
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pip_XSec_1DTpi_nu_2017
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pip_XSec_1Dth_nu_2017
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pip_XSec_1Dthmu_nu_2017
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pip_XSec_1DQ2_nu_2017
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pip_XSec_1DEnu_nu_2017
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCNpip_XSec_1Dpmu_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCNpip_XSec_1Dth_nu_2016
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCNpip_XSec_1DTpi_nu_2016
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCNpip_XSec_1Dthmu_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCNpip_XSec_1DQ2_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCNpip_XSec_1DEnu_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pi0_XSec_1Dth_antinu_2016
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pi0_XSec_1DTpi0_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pi0_XSec_1DQ2_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pi0_XSec_1Dthmu_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pi0_XSec_1Dpmu_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CC1pi0_XSec_1DEnu_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCinc_XSec_2DEavq3_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCinc_XSec_1Dx_ratio_C12_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCCOHPI_XSec_1DEpi_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCCOHPI_XSec_1Dth_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCCOHPI_XSec_1DEnu_nu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCCOHPI_XSec_1DEpi_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCCOHPI_XSec_1Dth_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCCOHPI_XSec_1DEnu_antinu
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH
+[35m[LOG Sample]:-- [0mWritten Histograms: MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH
+[1m[32m[LOG Fitter]: [0m------------------------------------ -
+[1m[32m[LOG Fitter]: [0mComparison Complete.
+[1m[32m[LOG Fitter]: [0m------------------------------------ -

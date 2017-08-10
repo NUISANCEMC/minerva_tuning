@@ -18,3 +18,8 @@ python nuisomp-plot.py \
     -file ./allsamples-DefaultPlusValenciaMEC-DefaultPlusMEC.root -colour kCyan -label Default+Val \
     -file ./allsamples-ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC.root -colour kGreen+2 -label ValBerger \
     -output allcombined-split2.pdf -b -slice x
+
+
+python nuisomp-plot.py \
+    -file ./allsamples-philcallumstune-Default.root -colour kRed -label Default \
+    -output philcallumtune.pdf -b slice x

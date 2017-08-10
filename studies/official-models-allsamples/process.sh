@@ -1,5 +1,5 @@
 source /cvmfs/fermilab.opensciencegrid.org/products/common/etc/setups.sh && setup ifdhc
-for modelfolder in mclinks/ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC/
+for modelfolder in mclinks/Default mclinks/ValenciaQEBergerSehgalCOHRES-DefaultPlusMEC mclinks/DefaultPlusMECWithNC-DefaultPlusMEC
 do 
     echo $modelfolder    
     model=$(basename $modelfolder)
@@ -11,7 +11,7 @@ do
 	ifdh cp $file mcreal/${model}/
     done
     cd mcreal/${model}/
-    nuiscomp -c ../../allsamples-LOCAL.xml -o ../../allsamples-${model}.root > ../../allsamples-${model}.log  2>&1
+    nuiscomp -c ../../allsamples-PhilCallumTune.xml -o ../../allsamples-philcallumstune-${model}.root > ../../allsamples-philcallumstune-${model}.log  2>&1
     cd ../../
     rm -r mcreal/${model}/
 done

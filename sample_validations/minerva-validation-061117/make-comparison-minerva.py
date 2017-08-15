@@ -29,6 +29,8 @@ def MakeTH2Figure(names,files):
     if name_official == "cc_visEq3_xsec_CV_WithErr":
         mc_official.Scale(1E-42)
     
+    print name_nuisance,mc_nuisance.Integral("width") / mc_official.Integral("width")
+
     SliceDim = names[2]
     HistNames = []
     if SliceDim == "Y":
@@ -147,6 +149,13 @@ def MakeTH1Figure(names,files):
 
     data_nuisance.SetTitle(name_nuisance)
     gStyle.SetOptTitle(1)
+
+#    hist_official = mc_nuisance.Clone()
+#    hist_official.Reset()
+#    for i in range(hist_official.GetNbinsX()):
+#        hist_official.SetBinContent(i+1, mc_official.Eval(hist_official.GetBinCenter(i+1)))
+#    print name_nuisance, mc_nuisance.Integral("width") / hist_official.Integral("width")
+
 
     gPad.Update()
     gPad.SaveAs("figures/" + name_official + "_comp.png")

@@ -75,58 +75,56 @@
              nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE"/>
 
 
-
-
   <!-- Callum and Phils Tune -->
   <parameter name="MaCCRES" type="genie_parameter"
-             nominal="-1.03569" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             nominal="-0.803571" low="-3.0" high="3.0" step="1.0" state="FREE" />
 
   <parameter name="MINERvARW_NormRES" type="custom_parameter"
-             nominal="1.28558" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             nominal="0.15" low="-3.0" high="3.0" step="1.0" state="FREE" />
 
   <parameter name="NonRESBGvnCC1pi,NonRESBGvpCC1pi,NonRESBGvbarnCC1pi,NonRESBGvbarpCC1pi"
              type="genie_parameter"
-             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+             nominal="-1.08" low="-3.0" high="3.0" step="1.0" state="FREE"/>
 
 
   <!-- Callum and Phils Tune (Split by nu/nubar) --> 
   <parameter name="MaCCRES" type="genie_parameter"
-             nominal="-1.03569" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             nominal="-0.803571" low="-3.0" high="3.0" step="1.0" state="FREE" />
 
   <parameter name="MINERvARW_NormRES" type="custom_parameter"
-             nominal="1.28558" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             nominal="0.15" low="-3.0" high="3.0" step="1.0" state="FREE" />
 
   <parameter name="NonRESBGvnCC1pi,NonRESBGvpCC1pi"
              type="genie_parameter"
-             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+             nominal="-1.08" low="-3.0" high="3.0" step="1.0" state="FREE"/>
 
   <parameter name="NonRESBGvbarnCC1pi,NonRESBGvbarpCC1pi"
              type="genie_parameter"
-             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+             nominal="-1.08" low="-3.0" high="3.0" step="1.0" state="FREE"/>
 
 
   <!-- Callum and Phils Tune (All non-res split) -->
   <parameter name="MaCCRES" type="genie_parameter"
-             nominal="-1.03569" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             nominal="-0.803571" low="-3.0" high="3.0" step="1.0" state="FREE" />
 
   <parameter name="MINERvARW_NormRES" type="custom_parameter"
-             nominal="1.28558" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             nominal="0.15" low="-3.0" high="3.0" step="1.0" state="FREE" />
 
   <parameter name="NonRESBGvnCC1pi"
              type="genie_parameter"
-             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+             nominal="-1.08" low="-3.0" high="3.0" step="1.0" state="FREE"/>
 
   <parameter name="NonRESBGvpCC1pi"
              type="genie_parameter"
-             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+             nominal="-1.08" low="-3.0" high="3.0" step="1.0" state="FREE"/>
 
   <parameter name="NonRESBGvbarnCC1pi"
              type="genie_parameter"
-             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+             nominal="-1.08" low="-3.0" high="3.0" step="1.0" state="FREE"/>
 
   <parameter name="NonRESBGvbarpCC1pi"
              type="genie_parameter"
-             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+             nominal="-1.08" low="-3.0" high="3.0" step="1.0" state="FREE"/>
 
 
 
@@ -244,7 +242,8 @@
   <covar name="BCZExpPriors"  input="ROOT:dials;covariance;limits"   type="GAUSPULL/GAUSTHROW" />
 
   <!-- Callum and Phils Tune -->
-  <covar name="BCPionPriors"  input="ROOT:dials;covariance;limits"   type="GAUSPULL/GAUSTHROW" />
+  <covar name="BCPionPriors"  input="ROOT:philcallums-bctune/bctuneprior_WithNormRES.root;dials;covariance"   
+         type="GAUSPULL/GAUSTHROW" />
 
   <!-- Pion FSI --
   <covar name="FrElas_pi_pull"   input="DIAL:FrElas_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW"
@@ -266,21 +265,75 @@
 
 
 
-
-
-
-
-
   <!-- Possible Model Dirs -->
+  <!-- ------------------------------------------------------------------------ -->
+
+  <!-- PNFS Area for GRID JOBS -->
   <config GENIE_DIR="/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/DefaultPlusMECWithNC-DefaultPlusMEC/" />
+  <!-- DATA Area for LOCAL JOBS -->
+  <config GENIE_DIR="/minerva/data/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/DefaultPlusMECWithNC-DefaultPlusMEC/" />
+
 
   <!-- SAMPLE LIST -->
+  <!-- ------------------------------------------------------------------------ -->
+  
+
+  <!-- CC0PI NUE -->
+  <sample name="MINERvA_CC0pi_XSec_1DEe_nue" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_nue.CH.2500000.3.ghep.root" />  
+  <sample name="MINERvA_CC0pi_XSec_1DQ2_nue" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_nue.CH.2500000.3.ghep.root" />
+  <sample name="MINERvA_CC0pi_XSec_1DThetae_nue" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_nue.CH.2500000.3.ghep.root" />
+ 
+  <!-- CC1PIP -->
   <sample name="MINERvA_CC1pip_XSec_1Dpmu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
   <sample name="MINERvA_CC1pip_XSec_1DTpi_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
   <sample name="MINERvA_CC1pip_XSec_1Dth_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
   <sample name="MINERvA_CC1pip_XSec_1Dthmu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
   <sample name="MINERvA_CC1pip_XSec_1DQ2_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
   <sample name="MINERvA_CC1pip_XSec_1DEnu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+
+  <!-- CC1PI0 -->
+  <sample name="MINERvA_CC1pi0_XSec_1Dth_antinu_2016" input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CC1pi0_XSec_1DTpi0_antinu" input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CC1pi0_XSec_1DQ2_antinu" input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CC1pi0_XSec_1Dthmu_antinu" input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CC1pi0_XSec_1Dpmu_antinu" input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CC1pi0_XSec_1DEnu_antinu" input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+
+  <!-- CCNPIP -->
+  <sample name="MINERvA_CCNpip_XSec_1Dth_nu_2016" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DTpi_nu_2016" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dthmu_nu" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCNpip_XSec_1Dpmu_nu" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DQ2_nu" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCNpip_XSec_1DEnu_nu" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+
+
+  <!-- CC COH -->
+  <sample name="MINERvA_CCCOHPI_XSec_1DEnu_nu" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1DEpi_nu" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1Dth_nu"  input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+
+  <sample name="MINERvA_CCCOHPI_XSec_1DEnu_antinu" input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1DEpi_antinu" input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+  <sample name="MINERvA_CCCOHPI_XSec_1Dth_antinu"  input="GENIE:@GENIE_DIR/gntp.MINERvA_rhc_numubar.CH.2500000.2.ghep.root" />
+
+  <!-- CC DIS -->
+  <sample name="MINERvA_CCDIS_XSec_1Dx_ratio_C12_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.C.2500000.5.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCDIS_XSec_1Dx_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.Fe.2500000.6.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root"/>
+  <sample name="MINERvA_CCDIS_XSec_1Dx_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.Pb.2500000.7.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root"/>
+
+  <sample name="MINERvA_CCDIS_XSec_1DEnu_ratio_C12_CH"  input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.C.2500000.5.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCDIS_XSec_1DEnu_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.Fe.2500000.6.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root"/>
+  <sample name="MINERvA_CCDIS_XSec_1DEnu_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.Pb.2500000.7.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root"/>
+
+  <!-- CC INC -->
+  <sample name="MINERvA_CCinc_XSec_1Dx_ratio_C12_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.C.2500000.5.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCinc_XSec_1Dx_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.Fe.2500000.6.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root"/>
+  <sample name="MINERvA_CCinc_XSec_1Dx_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.Pb.2500000.7.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root"/>
+
+  <sample name="MINERvA_CCinc_XSec_1DEnu_ratio_C12_CH"  input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.C.2500000.5.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CCinc_XSec_1DEnu_ratio_Fe56_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.Fe.2500000.6.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root"/>
+  <sample name="MINERvA_CCinc_XSec_1DEnu_ratio_Pb208_CH" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.Pb.2500000.7.ghep.root;GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root"/>
 
 
 

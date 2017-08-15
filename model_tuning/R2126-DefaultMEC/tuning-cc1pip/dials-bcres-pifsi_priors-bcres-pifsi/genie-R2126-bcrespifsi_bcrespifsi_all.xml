@@ -1,0 +1,76 @@
+<nuisance>
+
+  <!-- Model Parameters -->
+  <!-- ------------------------------------------------------------------------ -->
+
+  <!-- Callum and Phils Tune -->
+  <parameter name="MaCCRES" type="genie_parameter"
+             nominal="-0.803571" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MINERvARW_NormRES" type="custom_parameter"
+             nominal="0.15" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="NonRESBGvnCC1pi,NonRESBGvpCC1pi,NonRESBGvbarnCC1pi,NonRESBGvbarpCC1pi"
+             type="genie_parameter"
+             nominal="-1.08" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+
+  <!-- Pion FSI Fractions --
+  <parameter name="FrElas_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" 
+             WARNING="USUALLY LEFTS AS THE CUSHION" />
+  -->
+
+  <parameter name="FrCEx_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="FrInel_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="FrAbs_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             
+  <parameter name="FrPiProd_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+ 
+
+  <!-- Model Priors -->
+  <!-- ------------------------------------------------------------------------ -->
+
+  <!-- Callum and Phils Tune -->
+  <covar name="BCPionPriors"  input="ROOT:philcallums-bctune/bctuneprior_WithNormRES.root;dials;covariance"   
+         type="GAUSPULL/GAUSTHROW" />
+
+  <!-- Pion FSI --
+  <covar name="FrElas_pi_pull"   input="DIAL:FrElas_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW"
+         WARNING="USUALLY LEFT AS CUSHION" />
+  -->
+  <covar name="FrCEx_pi_pull"    input="DIAL:FrCEx_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrInel_pi_pull"   input="DIAL:FrInel_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrAbs_pi_pull"    input="DIAL:FrAbs_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrPiProd_pi_pull" input="DIAL:FrPiProd_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+
+
+  <!-- Possible Model Dirs -->
+  <!-- ------------------------------------------------------------------------ -->
+
+  <!-- PNFS Area for GRID JOBS --
+  <config GENIE_DIR="/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/DefaultPlusMECWithNC-DefaultPlusMEC/" />
+  <!-- DATA Area for DATA JOBS -->
+  <config GENIE_DIR="/minerva/data/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/DefaultPlusMECWithNC-DefaultPlusMEC/" />
+
+
+  <!-- SAMPLE LIST -->
+  <!-- ------------------------------------------------------------------------ -->
+  
+  <!-- CC1PIP -->
+  <sample name="MINERvA_CC1pip_XSec_1Dpmu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DTpi_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dth_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dthmu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DQ2_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DEnu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+
+
+</nuisance>
+

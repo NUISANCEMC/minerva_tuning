@@ -1,0 +1,288 @@
+<nuisance>
+
+  <!-- Model Parameters -->
+  <!-- ------------------------------------------------------------------------ -->
+
+  <!-- Dipole Axial Mass -->
+  <parameter name="MINERvARW_NormCCQE" type="custom_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+  <parameter name="MaCCQE" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+
+  <!-- Z - Expansion -->
+  <parameter name="AxFFCCQEshape" type="genie_parameter"
+             nominal="1.0" state="FIX" />
+  <parameter name="ZNormCCQE" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+  <parameter name="ZExpA1CCQE" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+  <parameter name="ZExpA2CCQE" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+  <parameter name="ZExpA3CCQE" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+  <parameter name="ZExpA4CCQE" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+
+  <!-- Default Non RES -->
+  <parameter name="MaCCRES" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MINERvARW_NormRES" type="custom_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="NonRESBGvnCC1pi,NonRESBGvpCC1pi,NonRESBGvbarnCC1pi,NonRESBGvbarpCC1pi"
+             type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <!-- Default Non RES (split by nu/nubar) -->
+  <parameter name="MaCCRES" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MINERvARW_NormRES" type="custom_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="NonRESBGvnCC1pi,NonRESBGvpCC1pi"
+             type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <parameter name="NonRESBGvbarnCC1pi,NonRESBGvbarpCC1pi"
+             type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <!-- Default Non Res (split all) -->
+  <parameter name="MaCCRES" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MINERvARW_NormRES" type="custom_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="NonRESBGvnCC1pi"
+             type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <parameter name="NonRESBGvpCC1pi"
+             type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <parameter name="NonRESBGvbarnCC1pi"
+             type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <parameter name="NonRESBGvbarpCC1pi"
+             type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+
+
+
+  <!-- Callum and Phils Tune -->
+  <parameter name="MaCCRES" type="genie_parameter"
+             nominal="-1.03569" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MINERvARW_NormRES" type="custom_parameter"
+             nominal="1.28558" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="NonRESBGvnCC1pi,NonRESBGvpCC1pi,NonRESBGvbarnCC1pi,NonRESBGvbarpCC1pi"
+             type="genie_parameter"
+             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+
+  <!-- Callum and Phils Tune (Split by nu/nubar) --> 
+  <parameter name="MaCCRES" type="genie_parameter"
+             nominal="-1.03569" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MINERvARW_NormRES" type="custom_parameter"
+             nominal="1.28558" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="NonRESBGvnCC1pi,NonRESBGvpCC1pi"
+             type="genie_parameter"
+             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <parameter name="NonRESBGvbarnCC1pi,NonRESBGvbarpCC1pi"
+             type="genie_parameter"
+             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+
+  <!-- Callum and Phils Tune (All non-res split) -->
+  <parameter name="MaCCRES" type="genie_parameter"
+             nominal="-1.03569" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MINERvARW_NormRES" type="custom_parameter"
+             nominal="1.28558" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="NonRESBGvnCC1pi"
+             type="genie_parameter"
+             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <parameter name="NonRESBGvpCC1pi"
+             type="genie_parameter"
+             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <parameter name="NonRESBGvbarnCC1pi"
+             type="genie_parameter"
+             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+  <parameter name="NonRESBGvbarpCC1pi"
+             type="genie_parameter"
+             nominal="-1.56053" low="-3.0" high="3.0" step="1.0" state="FREE"/>
+
+
+
+  <!-- Non Res 2 PION (Joint) -->
+  <parameter name="NonRESBGvnCC2pi,NonRESBGvpCC2pi,NonRESBGvbarnCC2pi,NonRESBGvbarpCC2pi"
+             type="genie_parameter"
+             nominal="0.0" low="-2.0" high="2.0" step="1.0" state="FREE" />
+
+  <!-- Non Res 2 PION (split nu/nubar) -->
+  <parameter name="NonRESBGvnCC2pi,NonRESBGvpCC2pi"
+             type="genie_parameter"
+             nominal="0.0" low="-2.0" high="2.0" step="1.0" state="FREE" />
+  <parameter name="NonRESBGvbarnCC2pi,NonRESBGvbarpCC2pi"
+             type="genie_parameter"
+             nominal="0.0" low="-2.0" high="2.0" step="1.0" state="FREE" />
+
+  <!-- Non Res 2 PION (all split) -->
+  <parameter name="NonRESBGvnCC2pi"
+             type="genie_parameter"
+             nominal="0.0" low="-2.0" high="2.0" step="1.0" state="FREE" />
+   <parameter name="NonRESBGvpCC2pi"
+             type="genie_parameter"
+             nominal="0.0" low="-2.0" high="2.0" step="1.0" state="FREE" />
+  <parameter name="NonRESBGvbarnCC2pi"
+             type="genie_parameter"
+             nominal="0.0" low="-2.0" high="2.0" step="1.0" state="FREE" /> 
+   <parameter name="NonRESBGvbarpCC2pi"
+             type="genie_parameter"
+             nominal="0.0" low="-2.0" high="2.0" step="1.0" state="FREE" />  
+
+
+
+  <!-- PION ANGLE (SWITCH!) -->
+  <!-- OFF -->
+  <parameter name="Theta_Delta2Npi" type="genie_parameter"
+             nominal="0.0" state="FIX" />
+  <!-- ON -->
+  <parameter name="Theta_Delta2Npi" type="genie_parameter"
+             nominal="1.0" state="FIX" />
+
+
+
+  <!-- Coherent -->
+  <parameter name="MaCOHpi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0"  state="FREE" />
+  <parameter name="R0COHpi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+
+
+  <!-- DIS -->
+  <parameter name="NormDISCC" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+
+
+
+  <!-- MFP + Form Zone (THESE TAKE AGES) -->
+  <parameter name="FormZone" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MFP_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="MFP_N" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+
+  <!-- Pion FSI Fractions --
+  <parameter name="FrElas_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" 
+             WARNING="USUALLY LEFTS AS THE CUSHION" />
+  -->
+
+  <parameter name="FrCEx_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="FrInel_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="FrAbs_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             
+  <parameter name="FrPiProd_pi" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+ 
+
+  <!-- Nucleon FSI Fractions --
+  <parameter name="FrElas_N" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" 
+             WARNING="USUALLY LEFT AS THE CUSHION" />
+  -->
+
+  <parameter name="FrCEx_N" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+  
+  <parameter name="FrInel_N" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+  <parameter name="FrAbs_N" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+             
+  <parameter name="FrPiProd_N" type="genie_parameter"
+             nominal="0.0" low="-3.0" high="3.0" step="1.0" state="FREE" />
+
+
+
+  <!-- Model Priors -->
+  <!-- ------------------------------------------------------------------------ -->
+
+  <!-- Dipole CCQE Prior -->
+  <covar name="BCDipolePrior" input="DIAL:MaCCQE;0.0;1.0" type="GAUSPULL/GAUSTHROW" />
+
+  <!-- Z-Expansion Priors -->
+  <covar name="BCZExpPriors"  input="ROOT:dials;covariance;limits"   type="GAUSPULL/GAUSTHROW" />
+
+  <!-- Callum and Phils Tune -->
+  <covar name="BCPionPriors"  input="ROOT:dials;covariance;limits"   type="GAUSPULL/GAUSTHROW" />
+
+  <!-- Pion FSI --
+  <covar name="FrElas_pi_pull"   input="DIAL:FrElas_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW"
+         WARNING="USUALLY LEFT AS CUSHION" />
+  -->
+  <covar name="FrCEx_pi_pull"    input="DIAL:FrCEx_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrInel_pi_pull"   input="DIAL:FrInel_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrAbs_pi_pull"    input="DIAL:FrAbs_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrPiProd_pi_pull" input="DIAL:FrPiProd_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+
+  <!-- Nucleon FSI --
+  <covar name="FrElas_pi_pull"   input="DIAL:FrElas_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" 
+         WARNING="USUALLY LEFT AS CUSHION"/>
+  -->
+  <covar name="FrCEx_pi_pull"    input="DIAL:FrCEx_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrInel_pi_pull"   input="DIAL:FrInel_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrAbs_pi_pull"    input="DIAL:FrAbs_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+  <covar name="FrPiProd_pi_pull" input="DIAL:FrPiProd_pi;0.0;1.0;-3.0;3.0" type="GAUSPULL/GAUSTHROW" />
+
+
+
+
+
+
+
+
+  <!-- Possible Model Dirs -->
+  <config GENIE_DIR="/pnfs/minerva/persistent/users/jstowell/NUISANCEMC/event_generator/genie/R-2_12_6-SHEF/DefaultPlusMECWithNC-DefaultPlusMEC/" />
+
+  <!-- SAMPLE LIST -->
+  <sample name="MINERvA_CC1pip_XSec_1Dpmu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DTpi_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dth_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1Dthmu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DQ2_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+  <sample name="MINERvA_CC1pip_XSec_1DEnu_nu_2017" input="GENIE:@GENIE_DIR/gntp.MINERvA_fhc_numu.CH.2500000.1.ghep.root" />
+
+
+
+</nuisance>
+
